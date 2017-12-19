@@ -28,7 +28,7 @@ clearpart --all --initlabel --disklabel=msdos
 # install the default groups for the server evironment since installing the environment is not working
 @server-product
 @headless-management
-
+@development-tools
 @admin-tools
 @hardware-support
 @python-web
@@ -100,5 +100,15 @@ echo -n "Setting default runlevel to multiuser text mode"
 rm -f /etc/systemd/system/default.target
 ln -s /lib/systemd/system/multi-user.target /etc/systemd/system/default.target
 echo .
+
+
+mkdir -p /opt/bin /opt/miners /tmp/build \
+    && cd /tmp/build \
+    && curl -O https://github.com/nanopool/Claymore-Dual-Miner/releases/download/v10.0/Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry_Pascal.AMD.NVIDIA.GPU.Miner.v10.0.-.LINUX.tar.gz
+    && mkdir -p Claymore \
+    && tar -xzf Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry_Pascal.AMD.NVIDIA.GPU.Miner.v10.0.-.LINUX.tar.gz -C Claymore \
+    && mv Claymore /opt/miners \
+    && ln -s /opt/miners/Claymore/ethdcrminer64 /opt/miners/Claymore/*.bash /opt/bin
+
 
 %end
