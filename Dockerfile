@@ -1,9 +1,11 @@
 FROM fedora:27
 
 
-RUN yum -y update \
-    && yum -y install pykickstart \
-    && yum -y install livecd-tools
+RUN dnf -y update \
+    && dnf groupinstall -y "Development Tools" \
+    && dnf -y install kernel-devel \
+    && dnf -y install pykickstart \
+    && dnf -y install livecd-tools 
 
 RUN mkdir -p /kickstarts /opt/bin
 

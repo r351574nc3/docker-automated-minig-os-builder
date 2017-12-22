@@ -1,58 +1,48 @@
-# fedora-live-base.ks
-#
-# Defines the basics for all kickstarts in the fedora-live branch
-# Does not include package selection (other then mandatory)
-# Does not include localization packages or configuration
-#
-# Does includes "default" language configuration (kickstarts including
-# this template can override these settings)
+%include fedora-disk-base.ks
 
-lang en_US.UTF-8
-keyboard us
-timezone US/Eastern
-auth --useshadow --passalgo=sha512
-#selinux --enforcing
-firewall --enabled --service=mdns
-#xconfig --startxonboot
-zerombr
-clearpart --all
-part / --size 5120 --fstype ext4
-#services --enabled=NetworkManager,ModemManager --disabled=sshd
-#network --bootproto=dhcp --device=link --activate
-rootpw --lock --iscrypted locked
-shutdown
-
-%include fedora-repo.ks
+part / --size 6144 --fstype ext4
+services --enabled=sshd,NetworkManager,chronyd
+network --bootproto=dhcp --device=link --activate --onboot=on
+#bootloader --timeout=1 --append="no_timer_check console=tty1 console=ttyS0,115200n8 debug"
+bootloader --timeout=1
+rootpw --iscrypted --lock $1$1PAq/71w$cJGAbLaOx2dVXMtsK39mO1
+#user --name=liveuser --groups=wheel,liveuser --password=liveuser
 
 %packages
 @base-x
-@guest-desktop-agents
+-@guest-desktop-agents
+-@fonts
+-@input-methods
+-@dial-up
+-@multimedia
+-@printing
+
+# install tools needed to manage and boot arm systems
+-@arm-tools
+-uboot-images-armv7
+
+# install the default groups for the server evironment since installing the environment is not working
+@server-product
 @standard
-@core
-@fonts
-@input-methods
-@dial-up
-@multimedia
-@hardware-support
-@printing
+@headless-management
+-initial-setup-gui
+-generic-release*
+@development-tools
+@admin-tools
+@system-tools
+@text-internet
+@python-web
 
 # Explicitly specified here:
 # <notting> walters: because otherwise dependency loops cause yum issues.
 kernel
+kernel-devel
 kernel-modules
 kernel-modules-extra
-
-# This was added a while ago, I think it falls into the category of
-# "Diagnosis/recovery tool useful from a Live OS image".  Leaving this untouched
-# for now.
-memtest86+
 
 # The point of a live image is to install
 anaconda
 @anaconda-tools
-
-# Need aajohan-comfortaa-fonts for the SVG rnotes images
-aajohan-comfortaa-fonts
 
 # Without this, initramfs generation during live image creation fails: #1242586
 dracut-live
@@ -61,10 +51,52 @@ syslinux
 
 # anaconda needs the locales available to run for different locales
 glibc-all-langpacks
+
+# Libraries for ethminer
+ocl-icd-devel
+clinfo
+-beignet
+-pocl
+-mesa-libOpenCL
+
+# save some space
+-mpage
+-sox
+-hplip
+-numactl
+-isdn4k-utils
+-autofs
+# smartcards won't really work on the livecd.
+-coolkey
+
+# scanning takes quite a bit of space :/
+-xsane
+-xsane-gimp
+-sane-backends
+
 %end
 
 %post
-# FIXME: it'd be better to get this installed from a package
+
+dnf update -y
+
+mkdir -p /home/liveuser
+
+# add liveuser user with no passwd
+#action "Adding live user" useradd \$USERADDARGS -c "Live System User" liveuser
+echo "Adding live user"
+/usr/sbin/useradd -M -c "Live System User" liveuser
+passwd -d liveuser 
+passwd -d root 
+/usr/sbin/usermod -aG wheel liveuser
+chown -R liveuser:liveuser /home/liveuser
+
+# setup systemd to boot to the right runlevel
+echo -n "Setting default runlevel to multiuser text mode"
+rm -f /etc/systemd/system/default.target
+ln -s /lib/systemd/system/multi-user.target /etc/systemd/system/default.target
+echo .
+
 cat > /etc/rc.d/init.d/livesys << EOF
 #!/bin/bash
 #
@@ -218,6 +250,19 @@ touch /.liveimg-configured
 # the hostname must be something else than 'localhost'
 # https://bugzilla.redhat.com/show_bug.cgi?id=1370222
 echo "localhost-live" > /etc/hostname
+#systemctl enable claymore
+#systemctl start claymore.service
+
+systemctl enable ethminer
+systemctl start ethminer
+
+mkdir /tmp/build \
+  && cd /tmp/build
+  && curl -OL https://www2.ati.com/drivers/linux/rhel7/amdgpu-pro-17.50-511655.tar.xz -e http://support.amd.com/en-us/kb-articles/Pages/Installation-Instructions-for-amdgpu-Graphics-Stacks.aspx \
+  && tar -Jxvf amdgpu-pro-17.50-511655.tar.xz \
+  && cd amdgpu-pro-17.50-511655 \
+  && ./amdgpu-install -y 
+  && cd - && rm -rf /tmp/build
 
 EOF
 
@@ -265,17 +310,8 @@ if strstr "\`cat /proc/cmdline\`" textinst ; then
    /usr/sbin/liveinst --text \$ks
 fi
 
-# configure X, allowing user to override xdriver
-if [ -n "\$xdriver" ]; then
-   cat > /etc/X11/xorg.conf.d/00-xdriver.conf <<FOE
-Section "Device"
-	Identifier	"Videocard0"
-	Driver	"\$xdriver"
-EndSection
-FOE
-fi
-
 EOF
+
 
 chmod 755 /etc/rc.d/init.d/livesys
 /sbin/restorecon /etc/rc.d/init.d/livesys
@@ -300,13 +336,8 @@ rm -f /var/lib/rpm/__db*
 releasever=$(rpm -q --qf '%{version}\n' --whatprovides system-release)
 basearch=$(uname -i)
 rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
-echo "Packages within this LiveCD"
-rpm -qa
 # Note that running rpm recreates the rpm db files which aren't needed or wanted
 rm -f /var/lib/rpm/__db*
-
-# go ahead and pre-make the man -k cache (#455968)
-/usr/bin/mandb
 
 # make sure there aren't core files lying around
 rm -f /core*
@@ -331,6 +362,101 @@ rm -f /boot/*-rescue*
 # Remove machine-id on pre generated images
 rm -f /etc/machine-id
 touch /etc/machine-id
+
+#    && curl -OL https://www2.ati.com/drivers/linux-amd-14.41rc1-opencl2-sep19.zip -e http://support.amd.com/en-us/kb-articles/Pages/OpenCL2-Driver.aspx \
+#    && curl -OL https://www2.ati.com/drivers/linux/rhel7/amdgpu-pro-17.50-511655.tar.xz -e http://support.amd.com/en-us/kb-articles/Pages/Installation-Instructions-for-amdgpu-Graphics-Stacks.aspx \
+#    && curl -OL https://github.com/curl/curl/releases/download/curl-7_57_0/curl-7.57.0.tar.gz \
+
+echo 'Fedora release 27 (Twenty Seven)' > /etc/redhat-release
+
+mkdir -p /opt/bin /opt/miners /tmp/build \
+    && cd /tmp/build \
+    && echo "nameserver    8.8.8.8" >> /etc/resolv.conf \
+    && curl -OL http://github.com/ethereum-mining/ethminer/releases/download/v0.12.0/ethminer-0.12.0-Linux.tar.gz \
+    && curl -OL http://github.com/sgminer-dev/sgminer/archive/5.1.1.tar.gz \
+    && curl -OL http://github.com/ckolivas/cgminer/archive/v4.10.0.tar.gz \
+    && curl -OL http://github.com/nanopool/Claymore-Dual-Miner/releases/download/v10.0/Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry_Pascal.AMD.NVIDIA.GPU.Miner.v10.0.-.LINUX.tar.gz \
+    && mkdir -p Claymore \
+    && tar -xzf Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry_Pascal.AMD.NVIDIA.GPU.Miner.v10.0.-.LINUX.tar.gz -C Claymore \
+    && mv Claymore /opt/miners \
+    && rm Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry_Pascal.AMD.NVIDIA.GPU.Miner.v10.0.-.LINUX.tar.gz 
+#cd /tmp/build && \
+#    unzip linux-amd-14.41rc1-opencl2-sep19.zip \
+#    && cd fglrx-14.41 \
+#    && sh amd-driver-installer-14.41-x86.x86_64.run && cd - 
+dnf clean packages
+cd /tmp/build \
+    && tar -xzf ethminer-0.12.0-Linux.tar.gz \
+    && mv bin/* /opt/bin
+#cd /tmp/build \
+#    && tar -Jxvf amdgpu-pro-17.50-511655.tar.xz \
+#    && cd amdgpu-pro-17.50-511655 \
+#    && ./amdgpu-install -y
+
+
+cat > /opt/bin/claymore.sh <<EOF
+#!/bin/sh
+
+export GPU_FORCE_64BIT_PTR=1
+export GPU_MAX_HEAP_SIZE=100
+export GPU_USE_SYNC_OBJECTS=1
+export GPU_MAX_ALLOC_PERCENT=100
+export GPU_SINGLE_ALLOC_PERCENT=100
+export LD_LIBRARY_PATH=/opt/lib
+
+cd /opt/miners/Claymore
+
+exec ./ethdcrminer64 -epool \$1 -ewal \$2 -epsw x -mode 1 -ftime 10
+EOF
+
+# Setup Claymore process
+/usr/sbin/useradd -M claymore -G wheel -s /sbin/nologin
+chmod 755 /opt/bin/claymore.sh
+
+#cat > /etc/systemd/system/claymore <<EOF
+#[Unit]
+#escription=Claymore Service
+#After=multi-user.target
+
+#[Service]
+#Type=simple
+#User=claymore
+#ExecStart=/opt/bin/claymore.sh 
+#Restart=on-abort
+#StandardOutput=journal
+#StandardError=journal
+
+#[Install]
+#WantedBy=multi-user.target
+#EOF
+
+# Setup Ethminer process
+/usr/sbin/useradd -M ethminer -G wheel -s /sbin/nologin
+
+cat > /etc/systemd/system/ethminer.service <<EOF
+[Unit]
+Description=Ethminer Service
+Requires=network.target
+After=multi-user.target
+
+[Service]
+Type=simple
+User=ethminer
+WorkingDirectory=/
+PermissionsStartOnly=true
+ExecStart=/opt/bin/ethminer --farm-recheck 10000 -S 
+ExecReload=/bin/kill -HUP
+ExecStop=/bin/kill -15
+Restart=on-failure
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+#systemctl enable claymore
+systemctl enable ethminer
 
 %end
 

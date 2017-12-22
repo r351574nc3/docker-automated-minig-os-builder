@@ -1,16 +1,15 @@
-%include fedora-disk-base.ks
+%include fedora-arm-base.ks
 
-services --enabled=sshd,NetworkManager,chronyd,initial-setup
-
-autopart
+# server defaults to xfs for / so lets do so on arm also
+part / --size=2500 --fstype xfs
 
 %packages
 # install the default groups for the server evironment since installing the environment is not working
 @server-product
 @standard
 @headless-management
-#@container-management
-#@domain-client
+@container-management
+@domain-client
 -initial-setup-gui
 -generic-release*
 %end

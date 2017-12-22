@@ -1,32 +1,21 @@
-# fedora-disk-base.ks
-#
-# Defines the basics for all kickstarts in the fedora-live branch
-# Does not include package selection (other then mandatory)
-# Does not include localization packages or configuration
-#
-# Does includes "default" language configuration (kickstarts including
-# this template can override these settings)
-
-text
 lang en_US.UTF-8
-keyboard us
-timezone US/Eastern
+#keyboard us
 auth --useshadow --passalgo=sha512
-#selinux --enforcing
-selinux --disabled
-firewall --enabled --service=ssh
-#services --enabled=sshd,NetworkManager,chronyd
-#network --bootproto=dhcp --device=link --activate
-#rootpw --lock --iscrypted locked
-shutdown
+selinux --enforcing
+firewall --enabled --service=mdns,ssh
 
-bootloader --timeout=1
+# configure extlinux bootloader
+bootloader extlinux
 
-zerombr
-clearpart --all --initlabel --disklabel=msdos
+part /boot/fw --size=30 --fstype vfat --asprimary
+part /boot --size=512 --fstype ext4 --asprimary
+part swap --size=512 --fstype swap --asprimary
+part / --size=2800 --fstype ext4 --asprimary
 
 # make sure that initial-setup runs and lets us do all the configuration bits
 firstboot --reconfig
+
+services --enabled=sshd,NetworkManager,avahi-daemon,rsyslog,chronyd,initial-setup
 
 %include fedora-repo.ks
 
@@ -41,17 +30,20 @@ dracut-config-generic
 -dracut-config-rescue
 # install tools needed to manage and boot arm systems
 @arm-tools
--uboot-images-armv7
+-uboot-images-armv8
 rng-tools
 chrony
-#bcm283x-firmware
+extlinux-bootloader
+bcm283x-firmware
 initial-setup
+initial-setup-gui
 -iwl*
 -ipw*
 -trousers-lib
 -usb_modeswitch
 -iproute-tc
--generic-release*
+#lets resize / on first boot
+# dracut-modules-growroot
 
 # make sure all the locales are available for inital0-setup and anaconda to work
 glibc-all-langpacks
@@ -68,19 +60,28 @@ libcrypt-nss
 %post
 
 # Setup Raspberry Pi firmware
-#cp -Pr /usr/share/bcm283x-firmware/* /boot/efi/
-#mv -f /boot/efi/config-64.txt /boot/efi/config.txt
-#cp -P /usr/share/uboot/rpi_3/u-boot.bin /boot/efi/rpi3-u-boot.bin
+cp -Pr /usr/share/bcm283x-firmware/* /boot/fw/
+cp -P /usr/share/uboot/rpi_2/u-boot.bin /boot/fw/rpi2-u-boot.bin
+cp -P /usr/share/uboot/rpi_3_32b/u-boot.bin /boot/fw/rpi3-u-boot.bin
+sed -i '/vfat/ d' /etc/fstab
 
+# work around for poor key import UI in PackageKit
+rm -f /var/lib/rpm/__db*
 releasever=$(rpm -q --qf '%{version}\n' fedora-release)
-rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-primary
-echo "Packages within this disk image"
-#rpm -qa
+basearch=armhfp
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
+echo "Packages within this ARM disk image"
+rpm -qa
 # Note that running rpm recreates the rpm db files which aren't needed or wanted
 rm -f /var/lib/rpm/__db*
 
 # remove random seed, the newly installed instance should make it's own
 rm -f /var/lib/systemd/random-seed
+
+# Because memory is scarce resource in most arm systems we are differing from the Fedora
+# default of having /tmp on tmpfs.
+echo "Disabling tmpfs for /tmp."
+systemctl mask tmp.mount
 
 dnf -y remove dracut-config-generic
 
@@ -93,3 +94,4 @@ rm -f /etc/machine-id
 touch /etc/machine-id
 
 %end
+
