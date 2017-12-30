@@ -1,0 +1,78 @@
+#!/bin/sh
+
+## live-build(7) - System Build Scripts
+## Copyright (C) 2006-2015 Leo Przybylski <r351574nc3 at gmail.com>
+##
+## This program comes with ABSOLUTELY NO WARRANTY; for details see COPYING.
+## This is free software, and you are welcome to redistribute it
+## under certain conditions; see COPYING for details.
+
+set -e
+
+# Install miners
+mkdir -p /tmp/build
+cd /tmp/build
+
+mkdir -p /opt/miners /opt/bin 
+
+# Ethminer
+curl -OL https://github.com/ethereum-mining/ethminer/releases/download/v0.12.0/ethminer-0.12.0-Linux.tar.gz
+tar -xzvf ethminer-0.12.0-Linux.tar.gz
+mv bin/* /opt/bin
+
+cat > /etc/systemd/system/ethminer.service <<EOF
+[Unit]
+Description=Ethminer Service
+Requires=network.target
+After=multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=/
+PermissionsStartOnly=true
+ExecStart=/opt/bin/ethminer --farm-recheck 10000 -S eth-us-west1.nanopool.org:9999 -G -O 0x44F78cb91936926c8b55D76442cDdD7981DB7254.miner2/r351574nc3@gmail.com:x   
+ExecReload=/bin/kill -HUP
+ExecStop=/bin/kill -15
+Restart=on-failure
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+#systemctl enable claymore
+systemctl enable ethminer
+
+# SG miner
+curl -OL https://github.com/sgminer-dev/sgminer/archive/5.1.1.tar.gz
+tar -xzvf 5.1.1.tar.gz
+
+# CG miner
+curl -OL https://github.com/ckolivas/cgminer/archive/v4.10.0.tar.gz
+tar -xzvf v4.10.0.tar.gz
+
+# Claymore
+curl -OL https://github.com/nanopool/Claymore-Dual-Miner/releases/download/v10.0/Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry_Pascal.AMD.NVIDIA.GPU.Miner.v10.0.-.LINUX.tar.gz
+mkdir -p Claymore
+tar -xzvf Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry_Pascal.AMD.NVIDIA.GPU.Miner.v10.0.-.LINUX.tar.gz -C Claymore
+mv Claymore /opt/miners
+
+
+cat > /opt/bin/claymore.sh <<EOF
+#!/bin/sh
+
+export GPU_FORCE_64BIT_PTR=1
+export GPU_MAX_HEAP_SIZE=100
+export GPU_USE_SYNC_OBJECTS=1
+export GPU_MAX_ALLOC_PERCENT=100
+export GPU_SINGLE_ALLOC_PERCENT=100
+export LD_LIBRARY_PATH=/opt/lib
+
+cd /opt/miners/Claymore
+
+exec ./ethdcrminer64 -epool \$1 -ewal \$2 -epsw x -mode 1 -ftime 10
+EOF
+
+# Setup Claymore process
+chmod 755 /opt/bin/claymore.sh
