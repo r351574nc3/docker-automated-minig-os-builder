@@ -1,10 +1,14 @@
-FROM debian:stretch
+FROM ubuntu:bionic
+
+ENV DEBCONF_FRONTEND noninteractive
 
 RUN apt-get update \
     && apt-get dist-upgrade -y \
     && apt-get install -y \
         live-build \
+        live-tools \
         syslinux \
+        syslinux-utils \
         squashfs-tools \
         genisoimage \
         debootstrap \

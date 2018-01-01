@@ -13,34 +13,13 @@ set -x
 export DEBIAN_FRONTEND=noninteractive
 dpkg --add-architecture i386
 apt-get install -y xz-utils \
-    linux-headers-4.9.0-4-amd64
+    linux-headers
 
-apt-get remove -y firmware-amd-graphics
-apt-get autoremove -y
+#apt-get remove -y firmware-amd-graphics
+#apt-get autoremove -y
 
-cp /etc/os-release /etc/os-release.orig
 
-cat > /etc/os-release <<EOF
-x86_64
-DISTRIB_ID=Ubuntu
-DISTRIB_RELEASE=16.04
-DISTRIB_CODENAME=xenial
-DISTRIB_DESCRIPTION="Ubuntu 16.04.3 LTS"
-EOF
-
-# Download drivers
-#mkdir -p /tmp/build \
-#    && cd /tmp/build \
-#    && curl -OL https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-17.50-511655.tar.xz -e http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-for-Linux-Release-Notes.aspx \
-#    && tar -xJvf amdgpu-pro-17.50-511655.tar.xz \
-#    && cd amdgpu-pro-17.50-511655 \
-#    && ./amdgpu-pro-install --opencl=legacy,rocm --headless -y 
-
-#apt-get -y install clinfo-amdgpu-pro
-#echo 'export LLVM_BIN=/opt/amdgpu-pro/bin' | sudo tee /etc/profile.d/amdgpu-pro.sh
-
-#apt-get install -y compute-firmware
-
+# Install new 4.11.0-kfd-compute-rocm-rel-1.6-180 Kernel
 
 mkdir -p /tmp/build \
     && cd /tmp/build \
@@ -52,10 +31,26 @@ echo deb file:///tmp/build/apt_1.6.4 xenial main > /etc/apt/sources.list.d/rocm.
 
 apt-get update
 
-apt-get install -y --allow-unauthenticated rocm-opencl-dev rocm
+apt-get install -y --allow-unauthenticated rocm
+
+AMDGPU_DRIVER_VERSION=16.60-379184
+#AMDGPU_DRIVER_VERSION=17.50-511655
+
+# Download drivers
+mkdir -p /tmp/build \
+    && cd /tmp/build \
+    && curl -OL https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-${AMDGPU_DRIVER_VERSION}.tar.xz -e http://support.amd.com \
+    && tar -xJvf amdgpu-pro-${AMDGPU_DRIVER_VERSION}.tar.xz \
+    && cd amdgpu-pro-${AMDGPU_DRIVER_VERSION} \
+    && ./amdgpu-pro-install  -y 
+
+#apt-get -y install clinfo-amdgpu-pro
+echo 'export LLVM_BIN=/opt/amdgpu-pro/bin' | sudo tee /etc/profile.d/amdgpu-pro.sh
+
+#apt-get install -y compute-firmware
+
 
 #cat /var/lib/dkms/rock/1.7.60-ubuntu/build/make.log
-cp /etc/os-release.orig /etc/os-release
 ls -l /boot
 
 #        && sh amdgpu-pro-preinstall.sh \
