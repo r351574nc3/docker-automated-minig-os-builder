@@ -1,20 +1,28 @@
-FROM fedora:27
+FROM ubuntu:bionic
 
+ENV DEBCONF_FRONTEND noninteractive
 
-RUN yum -y update \
-    && yum -y install pykickstart \
-    && yum -y install livecd-tools
+RUN apt-get update \
+    && apt-get dist-upgrade -y \
+    && apt-get install -y \
+        live-build \
+        live-tools \
+        syslinux \
+        syslinux-utils \
+        squashfs-tools \
+        genisoimage \
+        debootstrap \
+        fakeroot
 
-RUN mkdir -p /kickstarts /opt/bin
+RUN mkdir -p /opt
 
 ADD bin /opt/bin
+ADD conf /root/conf
 
-RUN chmod -R 755 /opt/bin
+RUN chmod 755 /opt/bin/*
 
-VOLUME /kickstarts
+VOLUME /work
 
-WORKDIR /kickstarts
+WORKDIR /root
 
-ENTRYPOINT ["/opt/bin/run.sh"]
-
-CMD [ 'default.ks' ]
+ENTRYPOINT ["sh", "/opt/bin/docker-entrypoint.sh"]
