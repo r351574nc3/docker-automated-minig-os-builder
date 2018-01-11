@@ -1,0 +1,479 @@
+# Kurdish (Sorani) translation for gfxboot-theme-ubuntu
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the gfxboot-theme-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gfxboot-theme-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-04-16 01:46+0000\n"
+"PO-Revision-Date: 2014-12-22 15:25+0000\n"
+"Last-Translator: ZirYaN <ziryan@gmail.com>\n"
+"Language-Team: Kurdish (Sorani) <ckb@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-10-10 14:20+0000\n"
+"X-Generator: Launchpad (build 18227)\n"
+
+#. ok button label
+#. txt_ok
+msgid "OK"
+msgstr "باشە"
+
+#. cancel button label
+#. txt_cancel
+msgid "Cancel"
+msgstr "پاشگه‌زبوونه‌وه‌"
+
+#. reboot button label
+#. txt_reboot
+msgid "Reboot"
+msgstr "دەست پێ کردنەوە"
+
+#. continue button label
+#. txt_continue
+msgid "Continue"
+msgstr "به‌رده‌وام به‌"
+
+#. txt_bootoptions
+msgid "Boot Options"
+msgstr "هەڵبژاردنی بووت"
+
+#. window title for exit dialog
+#. txt_exit_title (see txt_exit_dialog)
+msgid "Exiting..."
+msgstr "دەرچوون..."
+
+#. txt_exit_dialog
+msgid ""
+"You are leaving the graphical boot menu and\n"
+"starting the text mode interface."
+msgstr ""
+"تۆ لە پێرستی دەستپێکردن (بووت) ی گرافیکەکە ئەچیتەدەرێ و\n"
+" دەست ئەکات به‌ شێوازی ده‌قی ڕووی نێوانی."
+
+#. txt_help
+msgid "Help"
+msgstr "یارمه‌تی"
+
+#. info box title
+#. txt_info_title
+msgid "Boot loader"
+msgstr "بارکه‌ری بووت"
+
+#. error box title
+#. txt_error_title
+msgid "I/O error"
+msgstr "هەڵەی هاتن/چوون"
+
+#. boot disk change dialog title
+#. txt_change_disk_title
+msgid "Change Boot Disk"
+msgstr "پەپکەی بووت بگۆڕە"
+
+#. txt_insert_disk
+#, c-format
+msgid "Insert boot disk %u."
+msgstr "بووت دیسک بخه‌ره‌ناو %u."
+
+#. txt_insert_disk2
+#, c-format
+msgid ""
+"This is boot disk %u.\n"
+"Insert boot disk %u."
+msgstr ""
+"ئه‌مه‌ بووت دیسکه‌ %u.\n"
+"دیسکی بووت بخه‌ره‌ناو %u."
+
+#. txt_insert_disk3
+#, c-format
+msgid ""
+"This is not a suitable boot disk.\n"
+"Please insert boot disk %u."
+msgstr ""
+"ئەمە بووت دیسکێکی گوونجاو نیە.\n"
+"به‌ یارمه‌تیت دیسکی بووته‌که‌ی بخه‌ره‌ناو %u."
+
+#. password dialog title
+#. txt_password_title
+msgid "Password"
+msgstr "تێپەڕەوشە"
+
+#. Keep the newlines and spaces after ':'!
+#. txt_password
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"تێپەڕەوشەکەت لێبدە:   \n"
+"\n"
+"\n"
+"هێڵە نوێیەکان و بۆشاییەکان بپارێزە پاش ':'! txt_password   \n"
+"\n"
+"\n"
+
+#. dvd warning title
+#. txt_dvd_warning_title
+msgid "DVD Error"
+msgstr "DVD هەڵەیە"
+
+#. txt_dvd_warning2
+msgid ""
+"This is a two-sided DVD. You have booted from the second side.\n"
+"\n"
+"Turn the DVD over then continue."
+msgstr "ئەمە DVD‌‌ یەکی دووـ دیوە. تۆ بووتت لە دیوی دووهەمەوە کردووە."
+
+#. power off dialog title
+#. txt_power_off_title
+msgid "Power Off"
+msgstr "ووزە بکوژێنەرەوە (off)"
+
+#. txt_power_off
+msgid "Halt the system now?"
+msgstr "ئایا سیستەمەکە ئێستا ڕاوەستێت؟"
+
+#. txt_password
+msgid "Password\n"
+msgstr "‌ووشەی تێپەربوون\n"
+
+#. button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "هەڵبژاردنی تر"
+
+#. label for language selection
+#. txt_language
+msgid "Language"
+msgstr "زمان"
+
+#. label for keymap selection
+#. txt_keymap
+msgid "Keymap"
+msgstr "نه‌خشه‌کلیل"
+
+#. label for installation mode selection
+#. txt_modes
+msgid "Modes"
+msgstr "شێوازه‌کان"
+
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr "ئاسایی"
+
+#. label for d-i mode menu
+#. txt_expert_mode
+msgid "Expert mode"
+msgstr "شێوازی پێشکه‌وتوو"
+
+#. title for accessibility menu
+#. txt_access
+msgid "Accessibility"
+msgstr "ده‌ستپێگه‌یشتن"
+
+#. label for accessibility menu
+#. txt_access_none
+msgid "None"
+msgstr "هیچ"
+
+#. label for accessibility menu
+#. txt_access_v1
+msgid "High Contrast"
+msgstr "جیاوازی به‌رز"
+
+#. label for accessibility menu
+#. txt_access_v2
+msgid "Magnifier"
+msgstr "گه‌وره‌که‌ر"
+
+#. label for accessibility menu
+#. txt_access_v3
+msgid "Screen Reader"
+msgstr "خوێنه‌ره‌ه‌وه‌ی په‌رده‌"
+
+#. label for accessibility menu
+#. txt_access_brltty
+msgid "Braille Terminal"
+msgstr "ته‌رمینالی برایل"
+
+#. label for accessibility menu
+#. txt_access_m1
+msgid "Keyboard Modifiers"
+msgstr "گۆڕه‌ره‌کانی  ته‌خته‌کلیل"
+
+#. label for accessibility menu
+#. txt_access_m2
+msgid "On-Screen Keyboard"
+msgstr "تەختەکلیلی سەرپەردە"
+
+#. label for accessibility menu
+#. txt_access_m3
+msgid "Motor Difficulties - switch devices"
+msgstr "ئاسته‌نگیه‌کانی مۆتۆڕ - ئامێره‌کانی کردنه‌وه‌"
+
+#. label for accessibility menu
+#. txt_access_all
+msgid "Everything"
+msgstr "هەمووشتێک"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu
+msgid "^Try Ubuntu without installing"
+msgstr "^ئوبونتو تاقی بکەرەوە بەبێ دابەزاندن"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu
+msgid "^Try Kubuntu without installing"
+msgstr "^کوبونتو تاقی بکەرەوە بەبێ دابەزاندن"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_edubuntu
+msgid "^Try Edubuntu without installing"
+msgstr "ئێدبونتو تاقی بکەرەوە بەبێ دابەزاندن"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_xubuntu
+msgid "^Try Xubuntu without installing"
+msgstr "^زووبنتۆ تاقی بکەوە بێ دامەزراندن"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mid
+msgid "^Try Ubuntu MID without installing"
+msgstr "^ئووبنتۆی مامناوەند تاقی بکەوە بێ دامەزراندن"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_netbook
+msgid "^Try Ubuntu Netbook without installing"
+msgstr "^ئووبنتۆی Netbook  تاقی بکەوە بێ دامەزراندن"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu_netbook
+msgid "^Try Kubuntu Netbook without installing"
+msgstr "^کوبونتۆی Netbook  تاقی بکەوە بێ دامەزراندن"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_lubuntu
+msgid "^Try Lubuntu without installing"
+msgstr "^لووبنتۆ تاقی بکەوە بێ دامەزراندن"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_gnome
+msgid "^Try Ubuntu GNOME without installing"
+msgstr "^uئوبونتو گنۆم تاقیبکەرەوە بێ دابەزاندن"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mate
+msgid "^Try Ubuntu MATE without installing"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_start_kubuntu
+msgid "^Start Kubuntu"
+msgstr "^دەست پێ کردنی کووبنتۆ"
+
+#. Installation mode.
+#. txt_menuitem_driverupdates
+msgid "Use driver update disc"
+msgstr "وەگەڕخستنی تازەکردنەوەی پەپک"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_ubuntu
+msgid "^Install Ubuntu in text mode"
+msgstr "^دامەزراندنی ئوبونتو بە شێوازی دەق"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_kubuntu
+msgid "^Install Kubuntu in text mode"
+msgstr "^دامەزراندنی کوبونتو بە شێوازی دەق"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_edubuntu
+msgid "^Install Edubuntu in text mode"
+msgstr "^دامەزراندنی ئێدوبونتو بە شێوازی دەق"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_xubuntu
+msgid "^Install Xubuntu in text mode"
+msgstr "^دامەزراندنی زووبونتوو بە شێوازی دەق"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu
+msgid "^Install Ubuntu"
+msgstr "^ئوبونتو دامەزرێنە"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu
+msgid "^Install Kubuntu"
+msgstr "^کوبونتو دامەزرێنە"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_edubuntu
+msgid "^Install Edubuntu"
+msgstr "^ئیدوبونتو دامەزرێنە"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_xubuntu
+msgid "^Install Xubuntu"
+msgstr "زووبونتوو دامه‌زرێنه‌"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_server
+msgid "^Install Ubuntu Server"
+msgstr "^دامه‌زراندنی ڕاژه‌کاری ئوبونتوو"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_gnome
+msgid "^Install Ubuntu GNOME"
+msgstr "ئوبونتو گنۆم دابەزێنە"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mate
+msgid "^Install Ubuntu MATE"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_enlist_ubuntu_maas
+msgid "^Multiple server install with MAAS"
+msgstr "^دوو ئەوەندە ڕاژە دابمەزرێنە لەگەڵ MAAS"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntustudio
+msgid "^Install Ubuntu Studio"
+msgstr "^دامه‌زراندنی ستۆدیۆی ئوبونتوو"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mid
+msgid "^Install Ubuntu MID"
+msgstr "^ئووبنتۆی مامناوەند دامەزرێنە"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_netbook
+msgid "^Install Ubuntu Netbook"
+msgstr "^ئووبنتۆی Netbook دامەزرێنە"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu_netbook
+msgid "^Install Kubuntu Netbook"
+msgstr "^کووبنتۆی Netbook دامەزرێنە"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_lubuntu
+msgid "^Install Lubuntu"
+msgstr "^لووبنتۆ دامەزرێنە"
+
+#. Installation mode.
+#. txt_menuitem_workstation
+msgid "Install a workstation"
+msgstr "وویستگەی کار دامەزرێنە"
+
+#. Installation mode.
+#. txt_menuitem_server
+msgid "Install a server"
+msgstr "ڕاژه‌کارێک دامه‌زرێنه‌"
+
+#. Installation mode.
+#. txt_menuitem_oem
+msgid "OEM install (for manufacturers)"
+msgstr "OEM دامەزرێنە (بۆ کارگەکان)"
+
+#. Installation mode.
+#. txt_menuitem_lamp
+msgid "Install a LAMP server"
+msgstr "ڕاژەکارێکی LAMP دابمەزرێنە"
+
+#. Installation mode.
+#. txt_menuitem_ltsp
+msgid "Install an LTSP server"
+msgstr "ڕاژه‌کاریکی LTSP  دامه‌زرێنه‌"
+
+#. Installation mode.
+#. txt_menuitem_ltsp_mythbuntu
+msgid "Install a Diskless Image Server"
+msgstr "(Diskless Image Server )ێک دامەزرێنە"
+
+#. Installation mode.
+#. txt_menuitem_cli
+msgid "Install a command-line system"
+msgstr "سیستەمی فەرمانە-هێڵ دامەزرێنە"
+
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr "نزمترین سیستەم دامەزرێنە"
+
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr "نزمترین ئامێری ڕەسەن دامەزرێنە"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_check
+msgid "^Check disc for defects"
+msgstr "بەدوای کەموکورتی دا بگەڕێ لە ناو پەپکەکەدا"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_rescue
+msgid "^Rescue a broken system"
+msgstr "^سیستەمێکی تێکشکاو ڕزگاربکە"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_memtest
+msgid "Test ^memory"
+msgstr "تاقیکردنه‌وه‌ی ^بیرگه‌"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_hd
+msgid "^Boot from first hard disk"
+msgstr "^لە یەکەم دیسکی ڕەقەوە بووت بکە"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr "تەنها نەڕمەواڵا خۆڕاکان"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr "^دووبارە دامەزراندنەوەی خۆکاری Dell"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_mythbuntu
+msgid "^Install Mythbuntu"
+msgstr "^مێسبونتۆ دامەزرێنە"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_mythbuntu
+msgid "^Try Mythbuntu without installing"
+msgstr "^مێسبونتۆ تاقی بکەوە بێ دابەزاندن"
+
+#. txt_menuitem_live_ubuntukylin
+msgid "^Try Ubuntu Kylin without installing"
+msgstr "^Try Ubuntu Kylin without installing"
+
+#. txt_menuitem_live_ubuntukylin_netbook
+msgid "^Try Ubuntu Kylin Netbook without installing"
+msgstr "^Try Ubuntu Kylin Netbook without installing"
+
+#. txt_menuitem_install_text_ubuntukylin
+msgid "^Install Ubuntu Kylin in text mode"
+msgstr "^Install Ubuntu Kylin in text mode"
+
+#. txt_menuitem_install_ubuntukylin
+msgid "^Install Ubuntu Kylin"
+msgstr "^Install Ubuntu Kylin"
+
+#. txt_menuitem_install_ubuntukylin_netbook
+msgid "^Install Ubuntu Kylin Netbook"
+msgstr "^Install Ubuntu Kylin Netbook"
+
+#. txt_menuitem_start_ubuntukylin
+msgid "^Start Ubuntu Kylin"
+msgstr "^Start Ubuntu Kylin"
+
+#. txt_menuitem_live_ubuntustudio
+msgid "^Try Ubuntu Studio without installing"
+msgstr ""

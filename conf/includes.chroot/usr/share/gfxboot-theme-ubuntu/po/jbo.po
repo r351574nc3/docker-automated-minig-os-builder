@@ -1,0 +1,482 @@
+# Lojban translation for gfxboot-theme-ubuntu
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the gfxboot-theme-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gfxboot-theme-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-04-16 01:46+0000\n"
+"PO-Revision-Date: 2016-06-06 10:01+0000\n"
+"Last-Translator: Bruno Panasiewicz <ciuak.prog@gmail.com>\n"
+"Language-Team: Lojban <jbo@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-10-10 14:20+0000\n"
+"X-Generator: Launchpad (build 18227)\n"
+
+#. ok button label
+#. txt_ok
+msgid "OK"
+msgstr "mu'o"
+
+#. cancel button label
+#. txt_cancel
+msgid "Cancel"
+msgstr "ko sisti"
+
+#. reboot button label
+#. txt_reboot
+msgid "Reboot"
+msgstr "feko refsamcfa"
+
+#. continue button label
+#. txt_continue
+msgid "Continue"
+msgstr "ko toldicra"
+
+#. txt_bootoptions
+msgid "Boot Options"
+msgstr "samcfa tercu'a"
+
+#. window title for exit dialog
+#. txt_exit_title (see txt_exit_dialog)
+msgid "Exiting..."
+msgstr "cliva"
+
+#. txt_exit_dialog
+msgid ""
+"You are leaving the graphical boot menu and\n"
+"starting the text mode interface."
+msgstr ""
+".i do cliva lo pixra selja'o samcfa tercuxste gi'e\n"
+"cfagau lo lerseltcidu tadji sazycimde"
+
+#. txt_help
+msgid "Help"
+msgstr "komi sidju"
+
+#. info box title
+#. txt_info_title
+msgid "Boot loader"
+msgstr "samcfaru'e samselpla"
+
+#. error box title
+#. txt_error_title
+msgid "I/O error"
+msgstr "seljavyteryru'e nunsre"
+
+#. boot disk change dialog title
+#. txt_change_disk_title
+msgid "Change Boot Disk"
+msgstr ".i ko basygau lo drata samru'ecfa velvei"
+
+#. txt_insert_disk
+#, c-format
+msgid "Insert boot disk %u."
+msgstr ".i ko setca lo samru'ecfa velvei  me'e %u."
+
+#. txt_insert_disk2
+#, c-format
+msgid ""
+"This is boot disk %u.\n"
+"Insert boot disk %u."
+msgstr ""
+".i ti lo samru'ecfa velvei me'e %u.\n"
+".i ko setca lo samru'ecfa velvei me'e %u."
+
+#. txt_insert_disk3
+#, c-format
+msgid ""
+"This is not a suitable boot disk.\n"
+"Please insert boot disk %u."
+msgstr ""
+"i ti na'e mapti samru'ecfavelvei\n"
+".i e'o ko setca lo samru'ecfa velvei me'e %u."
+
+#. password dialog title
+#. txt_password_title
+msgid "Password"
+msgstr "japyvla"
+
+#. Keep the newlines and spaces after ':'!
+#. txt_password
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+".i ko samci'a lo do japyvla bu'uti:   \n"
+"\n"
+"\n"
+
+#. dvd warning title
+#. txt_dvd_warning_title
+msgid "DVD Error"
+msgstr ".i me la dyvydym. cukygu'ivelvei nunsre"
+
+#. txt_dvd_warning2
+msgid ""
+"This is a two-sided DVD. You have booted from the second side.\n"
+"\n"
+"Turn the DVD over then continue."
+msgstr ""
+".i ti lo datni relsfe ke me la dyvydym. cukmirvelvei .i do pu cfagau ra'i lo "
+"remoi datni bo sefta\n"
+"\n"
+".i ko cargau le cukmirvelvei gi'ebabo toldicra"
+
+#. power off dialog title
+#. txt_power_off_title
+msgid "Power Off"
+msgstr "sazysti"
+
+#. txt_power_off
+msgid "Halt the system now?"
+msgstr "aipei sisti lo skami ciste caku"
+
+#. txt_password
+msgid "Password\n"
+msgstr "japyvla\n"
+
+#. button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "drata tercu'a"
+
+#. label for language selection
+#. txt_language
+msgid "Language"
+msgstr "bau"
+
+#. label for keymap selection
+#. txt_keymap
+msgid "Keymap"
+msgstr "lerbatkyselcmi"
+
+#. label for installation mode selection
+#. txt_modes
+msgid "Modes"
+msgstr "fi'o sazycimdytcini"
+
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr "fadni"
+
+#. label for d-i mode menu
+#. txt_expert_mode
+msgid "Expert mode"
+msgstr "certu sazycimdytcini"
+
+#. title for accessibility menu
+#. txt_access
+msgid "Accessibility"
+msgstr "kamkalri"
+
+#. label for accessibility menu
+#. txt_access_none
+msgid "None"
+msgstr "pino"
+
+#. label for accessibility menu
+#. txt_access_v1
+msgid "High Contrast"
+msgstr "mutce gusfrica"
+
+#. label for accessibility menu
+#. txt_access_v2
+msgid "Magnifier"
+msgstr "ctavistci"
+
+#. label for accessibility menu
+#. txt_access_v3
+msgid "Screen Reader"
+msgstr "vidni tcidu tutci"
+
+#. label for accessibility menu
+#. txt_access_brltty
+msgid "Braille Terminal"
+msgstr "braile samvelci'a"
+
+#. label for accessibility menu
+#. txt_access_m1
+msgid "Keyboard Modifiers"
+msgstr "lerbatkyselcmi gafygau"
+
+#. label for accessibility menu
+#. txt_access_m2
+msgid "On-Screen Keyboard"
+msgstr "vidnyselzga lerselcmi bo samvelci'a"
+
+#. label for accessibility menu
+#. txt_access_m3
+msgid "Motor Difficulties - switch devices"
+msgstr "xadmuvgau ka nandu zo'u lo co'e cabra"
+
+#. label for accessibility menu
+#. txt_access_all
+msgid "Everything"
+msgstr "ro selcu'a"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu
+msgid "^Try Ubuntu without installing"
+msgstr "^troci tu'a la ubuntus. secau lo nu samterci'egau"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu
+msgid "^Try Kubuntu without installing"
+msgstr "^troci tu'a la kubuntus. secau lo nu samterci'egau"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_edubuntu
+msgid "^Try Edubuntu without installing"
+msgstr "^troci tu'a la edubuntus. secau lo nu samterci'egau"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_xubuntu
+msgid "^Try Xubuntu without installing"
+msgstr "^troci tu'a la xubuntus. secau lo nu samterci'egau"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mid
+msgid "^Try Ubuntu MID without installing"
+msgstr "^troci tu'a la ubuntus.mid. secau lo nu samterci'egau"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_netbook
+msgid "^Try Ubuntu Netbook without installing"
+msgstr "^troci tu'a la ubuntus.netbuk. secau lo nu samterci'egau"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu_netbook
+msgid "^Try Kubuntu Netbook without installing"
+msgstr "^troci tu'a la kubuntus.netbuk. secau lo nu samterci'egau"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_lubuntu
+msgid "^Try Lubuntu without installing"
+msgstr "^troci tu'a la lubuntus. secau lo nu samterci'egau"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_gnome
+msgid "^Try Ubuntu GNOME without installing"
+msgstr "^troci la .ubuntus. pe la gnome gi'e nai .instale"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mate
+msgid "^Try Ubuntu MATE without installing"
+msgstr "^troci la .ubuntus. pe la .meit. gi'e nai .instale"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_start_kubuntu
+msgid "^Start Kubuntu"
+msgstr "^ko cfagau la kubuntus."
+
+#. Installation mode.
+#. txt_menuitem_driverupdates
+msgid "Use driver update disc"
+msgstr ".i ko pilno lo mi'ircimde samtci ninyninga'igau velvei"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_ubuntu
+msgid "^Install Ubuntu in text mode"
+msgstr "^ko samterci'egau la ubuntus. fi'o sazycimditcini lo'e lerseltcidu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_kubuntu
+msgid "^Install Kubuntu in text mode"
+msgstr "^ko samterci'egau la kubuntus. fi'o sazycimditcini lo'e lerseltcidu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_edubuntu
+msgid "^Install Edubuntu in text mode"
+msgstr "^ko samterci'egau la edubuntus. fi'o sazycimditcini lo'e lerseltcidu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_xubuntu
+msgid "^Install Xubuntu in text mode"
+msgstr "^ko samterci'egau la xubuntus. fi'o sazycimditcini lo'e lerseltcidu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu
+msgid "^Install Ubuntu"
+msgstr "^ko samterci'egau la ubuntus."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu
+msgid "^Install Kubuntu"
+msgstr "^ko samterci'egau la kubuntus."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_edubuntu
+msgid "^Install Edubuntu"
+msgstr "^ko samterci'egau la edubuntus."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_xubuntu
+msgid "^Install Xubuntu"
+msgstr "^ko samterci'egau la xubuntus."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_server
+msgid "^Install Ubuntu Server"
+msgstr "^ko samterci'egau la ubuntus.syrver."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_gnome
+msgid "^Install Ubuntu GNOME"
+msgstr "^.instale la .ubuntus. pe la gnome"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mate
+msgid "^Install Ubuntu MATE"
+msgstr "^.instale la .ubuntus. pe la .meit."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_enlist_ubuntu_maas
+msgid "^Multiple server install with MAAS"
+msgstr ""
+"^so'omei ke seltcanyskami nu samterci'eselgau do'e la [MAAS] my'abu'abusys."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntustudio
+msgid "^Install Ubuntu Studio"
+msgstr "^ko samterci'egau la ubuntus.studios."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mid
+msgid "^Install Ubuntu MID"
+msgstr "^ko samterci'egau la ubuntus.mid."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_netbook
+msgid "^Install Ubuntu Netbook"
+msgstr "^ko samterci'egau la ubuntus.netbuk."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu_netbook
+msgid "^Install Kubuntu Netbook"
+msgstr "^ko samterci'egau la kubuntus.netbuk."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_lubuntu
+msgid "^Install Lubuntu"
+msgstr "^ko samterci'egau la lubuntus."
+
+#. Installation mode.
+#. txt_menuitem_workstation
+msgid "Install a workstation"
+msgstr "^ko samterci'egau lo prenu pilno skami"
+
+#. Installation mode.
+#. txt_menuitem_server
+msgid "Install a server"
+msgstr "^ko samterci'egau lo seltcanyskami"
+
+#. Installation mode.
+#. txt_menuitem_oem
+msgid "OEM install (for manufacturers)"
+msgstr ""
+"nu me la [OEM] obu'ebumym ku samterci'egau (to pi'o lo skami zbasu toi)"
+
+#. Installation mode.
+#. txt_menuitem_lamp
+msgid "Install a LAMP server"
+msgstr "^ko samterci'egau lo me la [LAMP] ly'abumypym. ku seltcanyskami"
+
+#. Installation mode.
+#. txt_menuitem_ltsp
+msgid "Install an LTSP server"
+msgstr "^ko samterci'egau lo me la [LTSP] lytysypym. ku seltcanyskami"
+
+#. Installation mode.
+#. txt_menuitem_ltsp_mythbuntu
+msgid "Install a Diskless Image Server"
+msgstr "^ko samterci'egau lo me la zoi gy Diskless Image Server"
+
+#. Installation mode.
+#. txt_menuitem_cli
+msgid "Install a command-line system"
+msgstr "^ko samterci'egau lo midyselsku lerpinsle ciste"
+
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr "^ko samterci'egau lo cmarai ciste"
+
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr "^ko samterci'egau lo cmarai mi'irsmisamtci"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_check
+msgid "^Check disc for defects"
+msgstr "^ko cipcta lo velvei lo cfila"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_rescue
+msgid "^Rescue a broken system"
+msgstr "^ko nurxru lo spofa ciste"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_memtest
+msgid "Test ^memory"
+msgstr "ko cipcta^mo'isro"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_hd
+msgid "^Boot from first hard disk"
+msgstr "^ko samcfa ra'i lo pamoi cukmakyvelvei"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr "zifsamselpla po'o"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr "nuke ^me la [Dell] del. ku zmiku krefu samterci'egau"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_mythbuntu
+msgid "^Install Mythbuntu"
+msgstr "^ko samterci'egau la mifbuntus."
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_mythbuntu
+msgid "^Try Mythbuntu without installing"
+msgstr "^ko troci tu'a la mifbuntus secau nu samterci'egau"
+
+#. txt_menuitem_live_ubuntukylin
+msgid "^Try Ubuntu Kylin without installing"
+msgstr "^troci la .ubuntu. pe la .kilin. gi'e nai .instale"
+
+#. txt_menuitem_live_ubuntukylin_netbook
+msgid "^Try Ubuntu Kylin Netbook without installing"
+msgstr "^troci la .ubuntukilin. zei cmaskami gi'e nai .instale"
+
+#. txt_menuitem_install_text_ubuntukylin
+msgid "^Install Ubuntu Kylin in text mode"
+msgstr "^.instale la .ubuntus. pe la .kilin. zi'e pe lo nalpixra"
+
+#. txt_menuitem_install_ubuntukylin
+msgid "^Install Ubuntu Kylin"
+msgstr "^.instale la .ubuntus. pe la .kilin."
+
+#. txt_menuitem_install_ubuntukylin_netbook
+msgid "^Install Ubuntu Kylin Netbook"
+msgstr "^.instale la .ubuntukilin. zei cmaskami"
+
+#. txt_menuitem_start_ubuntukylin
+msgid "^Start Ubuntu Kylin"
+msgstr "tolcadgau la .ubuntus. pe la .kilin."
+
+#. txt_menuitem_live_ubuntustudio
+msgid "^Try Ubuntu Studio without installing"
+msgstr ""

@@ -1,0 +1,480 @@
+# Punjabi translation for gfxboot-theme-ubuntu
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the gfxboot-theme-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gfxboot-theme-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-04-16 01:46+0000\n"
+"PO-Revision-Date: 2015-05-24 04:03+0000\n"
+"Last-Translator: Gursharnjit_Singh <ubuntuser13@gmail.com>\n"
+"Language-Team: Punjabi <pa@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-10-10 14:20+0000\n"
+"X-Generator: Launchpad (build 18227)\n"
+"Language: pa\n"
+
+#. ok button label
+#. txt_ok
+msgid "OK"
+msgstr "ਠੀਕ ਹੈ"
+
+#. cancel button label
+#. txt_cancel
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#. reboot button label
+#. txt_reboot
+msgid "Reboot"
+msgstr "ਮੁੜ-ਚਾਲੂ"
+
+#. continue button label
+#. txt_continue
+msgid "Continue"
+msgstr "ਜਾਰੀ ਰੱਖੋ"
+
+#. txt_bootoptions
+msgid "Boot Options"
+msgstr "ਬੂਟ ਚੋਣਾਂ"
+
+#. window title for exit dialog
+#. txt_exit_title (see txt_exit_dialog)
+msgid "Exiting..."
+msgstr "...ਬੰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#. txt_exit_dialog
+msgid ""
+"You are leaving the graphical boot menu and\n"
+"starting the text mode interface."
+msgstr ""
+"ਤੁਸੀਂ ਗਰਾਫਿਕਲ ਬੂਟ ਲੋਡਰ ਛੱਡ ਰਹੇ ਹੋ ਅਤੇ ਟੈਕਸਟ ਮੋਡ ਇੰਟਰਫੇਸ\n"
+"ਸ਼ੁਰੂ ਕਰ ਰਹੇ ਹੋ।"
+
+#. txt_help
+msgid "Help"
+msgstr "ਮੱਦਦ"
+
+#. info box title
+#. txt_info_title
+msgid "Boot loader"
+msgstr "ਬੂਟ ਲੋਡਰ"
+
+#. error box title
+#. txt_error_title
+msgid "I/O error"
+msgstr "I/O ਗਲਤੀ"
+
+#. boot disk change dialog title
+#. txt_change_disk_title
+msgid "Change Boot Disk"
+msgstr "ਬੂਟ ਡਿਸਕ ਬਦਲੋ"
+
+#. txt_insert_disk
+#, c-format
+msgid "Insert boot disk %u."
+msgstr "ਬੂਟ ਡਿਸਕ %u ਪਾਓ।"
+
+#. txt_insert_disk2
+#, c-format
+msgid ""
+"This is boot disk %u.\n"
+"Insert boot disk %u."
+msgstr ""
+"ਇਹ ਬੂਟ ਡਿਸਕ %u ਹੈ।\n"
+"ਬੂਟ ਡਿਸਕ %u ਪਾਓ।"
+
+#. txt_insert_disk3
+#, c-format
+msgid ""
+"This is not a suitable boot disk.\n"
+"Please insert boot disk %u."
+msgstr ""
+"ਇਹ ਢੁੱਕਵੀਂ ਬੂਟ ਡਿਸਕ ਨਹੀਂ ਹੈ।\n"
+"ਬੂਟ ਡਿਸਕ %u ਪਾਉ ਜੀ।"
+
+#. password dialog title
+#. txt_password_title
+msgid "Password"
+msgstr "ਪਾਸਵਰਡ"
+
+#. Keep the newlines and spaces after ':'!
+#. txt_password
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"ਆਪਣਾ ਪਾਸਵਰਡ ਦਿਉ:   \n"
+"\n"
+"\n"
+
+#. dvd warning title
+#. txt_dvd_warning_title
+msgid "DVD Error"
+msgstr "ਡੀਵੀਡੀ ਗਲਤੀ"
+
+#. txt_dvd_warning2
+msgid ""
+"This is a two-sided DVD. You have booted from the second side.\n"
+"\n"
+"Turn the DVD over then continue."
+msgstr ""
+"ਇਹ ਦੋ ਪਾਸਿਓ ਵਰਤਣ ਵਾਲੀ ਡੀਵੀਡੀ ਹੈ। ਤੁਸੀਂ ਦੂਜੇ ਪਾਸਿਉ ਬੂਟ ਕੀਤਾ ਹੈ।\n"
+"\n"
+"ਜਾਰੀ ਰੱਖਣ ਲਈ ਡੀਵੀਡੀ ਪਲਟੋ।"
+
+#. power off dialog title
+#. txt_power_off_title
+msgid "Power Off"
+msgstr "ਬੰਦ ਕਰੋ"
+
+#. txt_power_off
+msgid "Halt the system now?"
+msgstr "ਕੀ ਸਿਸਟਮ ਹੁਣ ਬੰਦ ਕਰਨਾ ਹੈ?"
+
+#. txt_password
+msgid "Password\n"
+msgstr "ਪਾਸਵਰਡ\n"
+
+#. button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "ਹੋਰ ਚੋਣਾਂ"
+
+#. label for language selection
+#. txt_language
+msgid "Language"
+msgstr "ਭਾਸ਼ਾ"
+
+#. label for keymap selection
+#. txt_keymap
+msgid "Keymap"
+msgstr "ਕੀਮੈਪ"
+
+#. label for installation mode selection
+#. txt_modes
+msgid "Modes"
+msgstr "ਮੋਡ"
+
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr "ਸਧਾਰਨ"
+
+#. label for d-i mode menu
+#. txt_expert_mode
+msgid "Expert mode"
+msgstr "ਮਾਹਰ ਢੰਗ"
+
+#. title for accessibility menu
+#. txt_access
+msgid "Accessibility"
+msgstr "ਸਲੱਭਤਾ"
+
+#. label for accessibility menu
+#. txt_access_none
+msgid "None"
+msgstr "ਕੋਈ ਨਹੀਂ"
+
+#. label for accessibility menu
+#. txt_access_v1
+msgid "High Contrast"
+msgstr "ਵਧੇਰੇ ਵਖਰੇਵਾਂ"
+
+#. label for accessibility menu
+#. txt_access_v2
+msgid "Magnifier"
+msgstr "ਵੱਡਦਰਸ਼ੀ"
+
+#. label for accessibility menu
+#. txt_access_v3
+msgid "Screen Reader"
+msgstr "ਸਕਰੀਨ ਰੀਡਰ"
+
+#. label for accessibility menu
+#. txt_access_brltty
+msgid "Braille Terminal"
+msgstr "ਬਰੇਲ ਟਰਮੀਨਲ"
+
+#. label for accessibility menu
+#. txt_access_m1
+msgid "Keyboard Modifiers"
+msgstr "ਕੀਬੋਰਡ ਮੋਡੀਫਾਇਰ"
+
+#. label for accessibility menu
+#. txt_access_m2
+msgid "On-Screen Keyboard"
+msgstr "ਸਕਰੀਨ ਉੱਤੇ ਕੀਬੋਰਡ"
+
+#. label for accessibility menu
+#. txt_access_m3
+msgid "Motor Difficulties - switch devices"
+msgstr "ਮੋਟਰ ਔਕੜਾਂ - ਜੰਤਰ ਬਦਲੋ"
+
+#. label for accessibility menu
+#. txt_access_all
+msgid "Everything"
+msgstr "ਸਭ ਕੁੱਝ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu
+msgid "^Try Ubuntu without installing"
+msgstr "ਬਿਨਾਂ ਇੰਸਟਾਲ ਕੀਤੇ ਉਬਤੂੰ ਵਰਤੋਂ(^T)"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu
+msgid "^Try Kubuntu without installing"
+msgstr "ਬਿਨਾਂ ਇੰਸਟਾਲ ਕੀਤੇ ਕੇਬਤੂੰ ਵਰਤੋਂ(^T)"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_edubuntu
+msgid "^Try Edubuntu without installing"
+msgstr "ਬਿਨਾਂ ਇੰਸਟਾਲ ਕੀਤੇ ਈਬਤੂੰ ਵਰਤੋਂ(^T)"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_xubuntu
+msgid "^Try Xubuntu without installing"
+msgstr "ਬਿਨਾਂ ਇੰਸਟਾਲ ਕੀਤੇ ਐਕਸਉਬਨਟੂ ਵਰਤੋਂ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mid
+msgid "^Try Ubuntu MID without installing"
+msgstr "ਬਿਨਾਂ ਇੰਸਟਾਲ ਕੀਤੇ ਉਬਨਟੂ  MID ਵਰਤੋਂ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_netbook
+msgid "^Try Ubuntu Netbook without installing"
+msgstr "ਬਿਨਾਂ ਇੰਸਟਾਲ ਕੀਤੇ ਉਬਨਟੂ ਨੈੱਟਬੁੱਕ ਵਰਤੋਂ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu_netbook
+msgid "^Try Kubuntu Netbook without installing"
+msgstr "ਬਿਨਾਂ ਇੰਸਟਾਲ ਕੀਤੇ ਕਬਨਟੂ ਨੈੱਟਬੁੱਕ ਵਰਤੋਂ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_lubuntu
+msgid "^Try Lubuntu without installing"
+msgstr "ਬਿਨਾਂ ਇੰਸਟਾਲ ਕੀਤੇ ਲਬਨਟੂ ਵਰਤੋਂ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_gnome
+msgid "^Try Ubuntu GNOME without installing"
+msgstr "^ਉਬੰਤੂ GNOME ਨੂੰ ਇੰਸਟਾਲ ਕੀਤੇ ਬਿਨਾਂ ਵਰਤੋਂ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mate
+msgid "^Try Ubuntu MATE without installing"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_start_kubuntu
+msgid "^Start Kubuntu"
+msgstr "ਕਬਨਟੂ ਚਾਲੂ ਕਰੋ"
+
+#. Installation mode.
+#. txt_menuitem_driverupdates
+msgid "Use driver update disc"
+msgstr "ਡਰਾਇਵਰ ਅੱਪਡੇਟ ਡਿਸਕ ਵਰਤੋਂ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_ubuntu
+msgid "^Install Ubuntu in text mode"
+msgstr "ਉਬਨਟੂ ਟੈਕਸਟ ਮੋਡ 'ਚ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_kubuntu
+msgid "^Install Kubuntu in text mode"
+msgstr "ਕਬਨਟੂ ਟੈਕਸਟ ਮੋਡ 'ਚ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_edubuntu
+msgid "^Install Edubuntu in text mode"
+msgstr "ਐਜੂਬਨਟੂ ਟੈਕਸਟ ਮੋਡ 'ਚ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_xubuntu
+msgid "^Install Xubuntu in text mode"
+msgstr "ਐਕਸਉਬਨਟੂ ਨੂੰ ਟੈਕਸਟ ਮੋਡ ਵਿਚ ਇੰਸਟਾਲ ਕਰੋ(^I)"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu
+msgid "^Install Ubuntu"
+msgstr "ਉਬਨਟੂ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu
+msgid "^Install Kubuntu"
+msgstr "ਕਬਨਟੂ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_edubuntu
+msgid "^Install Edubuntu"
+msgstr "ਐਜੂਬਨਟੂ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_xubuntu
+msgid "^Install Xubuntu"
+msgstr "ਐਕਸਉਬਨਟੂ ਇੰਸਟਾਲ ਕਰੋ(^I)"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_server
+msgid "^Install Ubuntu Server"
+msgstr "ਉਬਨਟੂ ਸਰਵਰ ਇੰਸਟਾਲ ਕਰੋ(^I"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_gnome
+msgid "^Install Ubuntu GNOME"
+msgstr "^ਉਬੰਤੂ GNOME ਨੂੰ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mate
+msgid "^Install Ubuntu MATE"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_enlist_ubuntu_maas
+msgid "^Multiple server install with MAAS"
+msgstr "^ਬਹੁਤੇ ਸਰਵਰ MAAS ਨਾਲ ਇਨਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntustudio
+msgid "^Install Ubuntu Studio"
+msgstr "ਉਬਨਟੂ ਸਟੂਡੀਓ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mid
+msgid "^Install Ubuntu MID"
+msgstr "ਉਬਨਟੂ MID ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_netbook
+msgid "^Install Ubuntu Netbook"
+msgstr "ਉਬਨਟੂ ਨੈੱਟਬੁੱਕ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu_netbook
+msgid "^Install Kubuntu Netbook"
+msgstr "ਕਬਨਟੂ ਨੈੱਟਬੁੱਕ ਇੰਸਟਾਲ ਕਰੋ(^I)"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_lubuntu
+msgid "^Install Lubuntu"
+msgstr "ਲਬਨਟੂ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Installation mode.
+#. txt_menuitem_workstation
+msgid "Install a workstation"
+msgstr "ਵਰਕਸਟੇਸ਼ਨ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Installation mode.
+#. txt_menuitem_server
+msgid "Install a server"
+msgstr "ਸਰਵਰ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Installation mode.
+#. txt_menuitem_oem
+msgid "OEM install (for manufacturers)"
+msgstr "OEM ਇੰਸਟਾਲ (ਉਤਪਾਦਕਾਂ ਲਈ)"
+
+#. Installation mode.
+#. txt_menuitem_lamp
+msgid "Install a LAMP server"
+msgstr "ਲੈਮਪ (LAMP) ਸਰਵਰ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Installation mode.
+#. txt_menuitem_ltsp
+msgid "Install an LTSP server"
+msgstr "ਐਲ.ਟੀ.ਐਸ.ਪੀ( Linux Terminal Server Project) ਸਰਵਰ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Installation mode.
+#. txt_menuitem_ltsp_mythbuntu
+msgid "Install a Diskless Image Server"
+msgstr "ਡਿਸਕ ਰਹਿਤ ਪਰਛਾਈਂ ਸਰਵਰ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Installation mode.
+#. txt_menuitem_cli
+msgid "Install a command-line system"
+msgstr "ਕਮਾਂਡ ਲਾਇਨ ਕਾਰਜ ਪਰਣਾਲੀ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr "ਘੱਟੋ-ਘੱਟ ਸਿਸਟਮ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr "ਘੱਟੋ-ਘੱਟ ਕਾਲਪਨਿਕ ਮਸ਼ੀਨ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_check
+msgid "^Check disc for defects"
+msgstr "ਡਿਸਕ ਨੂੰ ਨੁਕਸ ਲਈ ਚੈੱਕ ਕਰੋ(^C)"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_rescue
+msgid "^Rescue a broken system"
+msgstr "ਖ਼ਰਾਬ ਕਾਰਜ ਪਰਣਾਲੀ ਠੀਕ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_memtest
+msgid "Test ^memory"
+msgstr "ਮੈਮੋਰੀ ਟੈਸਟ ਕਰੋ(^m)"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_hd
+msgid "^Boot from first hard disk"
+msgstr "ਪਹਿਲੀ ਹਾਰਡ ਡਿਸਕ ਤੋਂ ਬੂਟ ਕਰੋ(^B)"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr "ਕੇਵਲ ਮੁਕਤ ਸਾਫਟਵੇਅਰ ਹੀ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr "^ਡੈਲ ਸਵੈ-ਨਯਤਰੀ ਮੂੜਇੰਸਟਾਲ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_mythbuntu
+msgid "^Install Mythbuntu"
+msgstr "ਮਿਥਕਬਨਟੂ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_mythbuntu
+msgid "^Try Mythbuntu without installing"
+msgstr "ਮਿਥਕਬਨਟੂ  ਬਿਨਾਂ ਇੰਸਟਾਲ ਕੀਤੇ ਵੇਖੋ"
+
+#. txt_menuitem_live_ubuntukylin
+msgid "^Try Ubuntu Kylin without installing"
+msgstr "ਉਬੰਤੂ ਕੈਲਿਨ ਨੂੰ ਇੰਸਟਾਲ ਕੀਤੇ ਬਿਨਾਂ ਵਰਤੋ"
+
+#. txt_menuitem_live_ubuntukylin_netbook
+msgid "^Try Ubuntu Kylin Netbook without installing"
+msgstr "ਉਬੰਤੂ ਕੈਲਿਨ ਨੋਟਬੁੱਕ ਨੂੰ ਇੰਸਟਾਲ ਕੀਤੇ ਬਿਨਾਂ ਵਰਤੋ"
+
+#. txt_menuitem_install_text_ubuntukylin
+msgid "^Install Ubuntu Kylin in text mode"
+msgstr "ਉਬੰਤੂ ਕੈਲਿਨ ਨੂੰ ਅਖੱਰੀ ਰੂਪ ਵਿੱਚ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. txt_menuitem_install_ubuntukylin
+msgid "^Install Ubuntu Kylin"
+msgstr "ਉਬੰਤੂ ਕੈਲਿਨ ਨੂੰ  ਇੰਸਟਾਲ ਕਰੋ"
+
+#. txt_menuitem_install_ubuntukylin_netbook
+msgid "^Install Ubuntu Kylin Netbook"
+msgstr "ਉਬੰਤੂ ਕੈਲਿਨ ਨੋਟਬੁੱਕ ਨੂੰ ਇੰਸਟਾਲ ਕਰੋ"
+
+#. txt_menuitem_start_ubuntukylin
+msgid "^Start Ubuntu Kylin"
+msgstr "ਉਬੰਤੂ ਕੈਲਿਨ ਨੂੰ  ਸ਼ੁੁਰੂ ਕਰੋ"
+
+#. txt_menuitem_live_ubuntustudio
+msgid "^Try Ubuntu Studio without installing"
+msgstr ""

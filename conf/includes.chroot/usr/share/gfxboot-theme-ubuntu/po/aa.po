@@ -1,0 +1,479 @@
+# Afar translation for gfxboot-theme-ubuntu
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gfxboot-theme-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gfxboot-theme-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-04-16 01:46+0000\n"
+"PO-Revision-Date: 2015-04-04 14:29+0000\n"
+"Last-Translator: Charif AYFARAH <ayfarah@ymail.com>\n"
+"Language-Team: Afar <aa@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-10-10 14:20+0000\n"
+"X-Generator: Launchpad (build 18227)\n"
+
+#. ok button label
+#. txt_ok
+msgid "OK"
+msgstr "Oggol"
+
+#. cancel button label
+#. txt_cancel
+msgid "Cancel"
+msgstr "Baxqis"
+
+#. reboot button label
+#. txt_reboot
+msgid "Reboot"
+msgstr "Wadir-ugsa"
+
+#. continue button label
+#. txt_continue
+msgid "Continue"
+msgstr "Tatur"
+
+#. txt_bootoptions
+msgid "Boot Options"
+msgstr "Ugsiyyi Dooro"
+
+#. window title for exit dialog
+#. txt_exit_title (see txt_exit_dialog)
+msgid "Exiting..."
+msgstr "Mawqa"
+
+#. txt_exit_dialog
+msgid ""
+"You are leaving the graphical boot menu and\n"
+"starting the text mode interface."
+msgstr ""
+"Weel ugsih oytik tawqeenih\n"
+"Kawsenti welih neef qimbissan"
+
+#. txt_help
+msgid "Help"
+msgstr "Cato"
+
+#. info box title
+#. txt_info_title
+msgid "Boot loader"
+msgstr "Ugus abe"
+
+#. error box title
+#. txt_error_title
+msgid "I/O error"
+msgstr "I/O soka"
+
+#. boot disk change dialog title
+#. txt_change_disk_title
+msgid "Change Boot Disk"
+msgstr "Ugus Galaad Ibiddil"
+
+#. txt_insert_disk
+#, c-format
+msgid "Insert boot disk %u."
+msgstr "Ugus galaad culus %u."
+
+#. txt_insert_disk2
+#, c-format
+msgid ""
+"This is boot disk %u.\n"
+"Insert boot disk %u."
+msgstr ""
+"Ah ugus galaada %u.\n"
+"Ugus galaad culus %u."
+
+#. txt_insert_disk3
+#, c-format
+msgid ""
+"This is not a suitable boot disk.\n"
+"Please insert boot disk %u."
+msgstr ""
+"Ah cilka le ugus galaad hinna.\n"
+"Ku maganak ugus galaad culus %u."
+
+#. password dialog title
+#. txt_password_title
+msgid "Password"
+msgstr "Cuumita"
+
+#. Keep the newlines and spaces after ':'!
+#. txt_password
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"Cuumita culus:   \n"
+"\n"
+"\n"
+
+#. dvd warning title
+#. txt_dvd_warning_title
+msgid "DVD Error"
+msgstr "DVD soka"
+
+#. txt_dvd_warning2
+msgid ""
+"This is a two-sided DVD. You have booted from the second side.\n"
+"\n"
+"Turn the DVD over then continue."
+msgstr ""
+"Ah namma kabuh tan DVD. Culussem nammahayto kabu.\n"
+"\n"
+"DVD aki kabuh korisay tatur."
+
+#. power off dialog title
+#. txt_power_off_title
+msgid "Power Off"
+msgstr "Barugu"
+
+#. txt_power_off
+msgid "Halt the system now?"
+msgstr "Siira away ayseedo ?"
+
+#. txt_password
+msgid "Password\n"
+msgstr "Cuumita\n"
+
+#. button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Aki Dooro"
+
+#. label for language selection
+#. txt_language
+msgid "Language"
+msgstr "Afa"
+
+#. label for keymap selection
+#. txt_keymap
+msgid "Keymap"
+msgstr "Maftac karta"
+
+#. label for installation mode selection
+#. txt_modes
+msgid "Modes"
+msgstr "Welitte"
+
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr "Qaadi"
+
+#. label for d-i mode menu
+#. txt_expert_mode
+msgid "Expert mode"
+msgstr "Mixig welu"
+
+#. title for accessibility menu
+#. txt_access
+msgid "Accessibility"
+msgstr "Eleelo"
+
+#. label for accessibility menu
+#. txt_access_none
+msgid "None"
+msgstr "Maleey"
+
+#. label for accessibility menu
+#. txt_access_v1
+msgid "High Contrast"
+msgstr "Naba Ceelo-sinna"
+
+#. label for accessibility menu
+#. txt_access_v2
+msgid "Magnifier"
+msgstr "Yaynabi"
+
+#. label for accessibility menu
+#. txt_access_v3
+msgid "Screen Reader"
+msgstr "Alaalaq kawseyna"
+
+#. label for accessibility menu
+#. txt_access_brltty
+msgid "Braille Terminal"
+msgstr "Braille ellecaboyta"
+
+#. label for accessibility menu
+#. txt_access_m1
+msgid "Keyboard Modifiers"
+msgstr "Maftaci Korseynitte"
+
+#. label for accessibility menu
+#. txt_access_m2
+msgid "On-Screen Keyboard"
+msgstr "Alaalaqal tan Maftaci"
+
+#. label for accessibility menu
+#. txt_access_m3
+msgid "Motor Difficulties - switch devices"
+msgstr "Matoor gidbaabinitte - aalatitte ibiddil"
+
+#. label for accessibility menu
+#. txt_access_all
+msgid "Everything"
+msgstr "Kulliimi"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu
+msgid "^Try Ubuntu without installing"
+msgstr "^Ubuntu daabise kal gabbat"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu
+msgid "^Try Kubuntu without installing"
+msgstr "^Kubuntu daabise kal gabbat"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_edubuntu
+msgid "^Try Edubuntu without installing"
+msgstr "^Edubuntu daabise kal gabbat"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_xubuntu
+msgid "^Try Xubuntu without installing"
+msgstr "^Xubuntu daabise kal gabbat"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mid
+msgid "^Try Ubuntu MID without installing"
+msgstr "^Ubuntu MID daabise kal gabbat"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_netbook
+msgid "^Try Ubuntu Netbook without installing"
+msgstr "^Ubuntu Netbook daabise kal gabbat"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu_netbook
+msgid "^Try Kubuntu Netbook without installing"
+msgstr "^Kubuntu Netbook daabise kal gabbat"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_lubuntu
+msgid "^Try Lubuntu without installing"
+msgstr "^Lubuntu daabise kal gabbat"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_gnome
+msgid "^Try Ubuntu GNOME without installing"
+msgstr "^Ubuntu GNOME daabise kal gabbat"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mate
+msgid "^Try Ubuntu MATE without installing"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_start_kubuntu
+msgid "^Start Kubuntu"
+msgstr "Kubuntu ^Qimbis"
+
+#. Installation mode.
+#. txt_menuitem_driverupdates
+msgid "Use driver update disc"
+msgstr "Kokkobe asaakisê galaad xoqoys"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_ubuntu
+msgid "^Install Ubuntu in text mode"
+msgstr "^Ubuntu kawsenti gurral daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_kubuntu
+msgid "^Install Kubuntu in text mode"
+msgstr "^Kubuntu kawsenti gurral daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_edubuntu
+msgid "^Install Edubuntu in text mode"
+msgstr "^Edubuntu kawsenti gurral daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_xubuntu
+msgid "^Install Xubuntu in text mode"
+msgstr "^Xubuntu kawsenti gurral daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu
+msgid "^Install Ubuntu"
+msgstr "^Ubuntu daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu
+msgid "^Install Kubuntu"
+msgstr "^Kubuntu daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_edubuntu
+msgid "^Install Edubuntu"
+msgstr "^Edubuntu daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_xubuntu
+msgid "^Install Xubuntu"
+msgstr "^Xubuntu daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_server
+msgid "^Install Ubuntu Server"
+msgstr "^Ubuntu yayfaafi daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_gnome
+msgid "^Install Ubuntu GNOME"
+msgstr "^Ubuntu GNOME daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mate
+msgid "^Install Ubuntu MATE"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_enlist_ubuntu_maas
+msgid "^Multiple server install with MAAS"
+msgstr "^Mango yayfaafi MAAS luk daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntustudio
+msgid "^Install Ubuntu Studio"
+msgstr "^Ubuntu Studio daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mid
+msgid "^Install Ubuntu MID"
+msgstr "^Ubuntu MID daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_netbook
+msgid "^Install Ubuntu Netbook"
+msgstr "^Ubuntu Netbook daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu_netbook
+msgid "^Install Kubuntu Netbook"
+msgstr "^Kubuntu Netbook daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_lubuntu
+msgid "^Install Lubuntu"
+msgstr "^Lubuntu daabis"
+
+#. Installation mode.
+#. txt_menuitem_workstation
+msgid "Install a workstation"
+msgstr "Taamâ-carka daabis"
+
+#. Installation mode.
+#. txt_menuitem_server
+msgid "Install a server"
+msgstr "Yayfaafi daabis"
+
+#. Installation mode.
+#. txt_menuitem_oem
+msgid "OEM install (for manufacturers)"
+msgstr "OEM daabis"
+
+#. Installation mode.
+#. txt_menuitem_lamp
+msgid "Install a LAMP server"
+msgstr "LAMP yayfaafi daabis"
+
+#. Installation mode.
+#. txt_menuitem_ltsp
+msgid "Install an LTSP server"
+msgstr "LTSP yayfaafi daabis"
+
+#. Installation mode.
+#. txt_menuitem_ltsp_mythbuntu
+msgid "Install a Diskless Image Server"
+msgstr "Diskless Muuci Yayfaafi daabis"
+
+#. Installation mode.
+#. txt_menuitem_cli
+msgid "Install a command-line system"
+msgstr "Siirah-amri fiiroyta daabis"
+
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr "Dagnâ siira daabis"
+
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr "Dagna le ablesinnon makiina daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_check
+msgid "^Check disc for defects"
+msgstr "^Galaad boola efeeged"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_rescue
+msgid "^Rescue a broken system"
+msgstr "^Tiddigille siira wad"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_memtest
+msgid "Test ^memory"
+msgstr "Kaseyna^ mokkor"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_hd
+msgid "^Boot from first hard disk"
+msgstr "^Ugus naharsi gibdi galaadak ab"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr "Cagal cindah tan fantaaso"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr "^Dell otomatik wadir-daabisso"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_mythbuntu
+msgid "^Install Mythbuntu"
+msgstr "^Mythbuntu daabis"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_mythbuntu
+msgid "^Try Mythbuntu without installing"
+msgstr "^Mythbuntu daabise kal gabbat"
+
+#. txt_menuitem_live_ubuntukylin
+msgid "^Try Ubuntu Kylin without installing"
+msgstr "^Ubuntu Kylin daabise kal gabbat"
+
+#. txt_menuitem_live_ubuntukylin_netbook
+msgid "^Try Ubuntu Kylin Netbook without installing"
+msgstr "^Ubuntu Kylin Netbook daabise kal gabbat"
+
+#. txt_menuitem_install_text_ubuntukylin
+msgid "^Install Ubuntu Kylin in text mode"
+msgstr "^Ubuntu Kylin kawsenti gurral daabis"
+
+#. txt_menuitem_install_ubuntukylin
+msgid "^Install Ubuntu Kylin"
+msgstr "^Ubuntu Kylin daabis"
+
+#. txt_menuitem_install_ubuntukylin_netbook
+msgid "^Install Ubuntu Kylin Netbook"
+msgstr "^Ubuntu Kylin Netbook daabis"
+
+#. txt_menuitem_start_ubuntukylin
+msgid "^Start Ubuntu Kylin"
+msgstr "^Ubuntu Kylin ugus"
+
+#. txt_menuitem_live_ubuntustudio
+msgid "^Try Ubuntu Studio without installing"
+msgstr ""

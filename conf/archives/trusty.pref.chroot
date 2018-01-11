@@ -1,11 +1,3 @@
 Package: syslinux-themes-ubuntu-oneiric
 Pin: release n=trusty
 Pin-Priority: 600
-
-Package: memtest86+
-Pin: release n=trusty
-Pin-Priority: -1
-
-Package: syslinux-utils
-Pin: release n=trusty
-Pin-Priority: 500

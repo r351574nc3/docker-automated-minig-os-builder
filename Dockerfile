@@ -5,14 +5,19 @@ ENV DEBCONF_FRONTEND noninteractive
 RUN apt-get update \
     && apt-get dist-upgrade -y \
     && apt-get install -y \
+        apt-utils \
         live-build \
         live-tools \
         syslinux \
+        isolinux \
+        extlinux \
+        gfxboot-theme-ubuntu \
         syslinux-utils \
         squashfs-tools \
         genisoimage \
         debootstrap \
-        fakeroot
+        fakeroot \
+        xz-utils 
 
 RUN mkdir -p /opt
 

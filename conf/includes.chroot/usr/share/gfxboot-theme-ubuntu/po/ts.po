@@ -1,0 +1,474 @@
+# Tsonga translation for gfxboot-theme-ubuntu
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the gfxboot-theme-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gfxboot-theme-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-04-16 01:46+0000\n"
+"PO-Revision-Date: 2009-10-10 20:37+0000\n"
+"Last-Translator: Ernest Mashele <Unknown>\n"
+"Language-Team: Tsonga <ts@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-10-10 14:20+0000\n"
+"X-Generator: Launchpad (build 18227)\n"
+
+#. ok button label
+#. txt_ok
+msgid "OK"
+msgstr "Hi swona"
+
+#. cancel button label
+#. txt_cancel
+msgid "Cancel"
+msgstr "Tshika"
+
+#. reboot button label
+#. txt_reboot
+msgid "Reboot"
+msgstr "Sungurisa Khomphyuta"
+
+#. continue button label
+#. txt_continue
+msgid "Continue"
+msgstr "Yana emahlweni"
+
+#. txt_bootoptions
+msgid "Boot Options"
+msgstr "Masungulelo ya Khomphyuta"
+
+#. window title for exit dialog
+#. txt_exit_title (see txt_exit_dialog)
+msgid "Exiting..."
+msgstr "A ku humeni..."
+
+#. txt_exit_dialog
+msgid ""
+"You are leaving the graphical boot menu and\n"
+"starting the text mode interface."
+msgstr "U le ku sukeni eka masungulelo lama nga na swifaniso"
+
+#. txt_help
+msgid "Help"
+msgstr "Pfuna"
+
+#. info box title
+#. txt_info_title
+msgid "Boot loader"
+msgstr "Xipangi ya Masungulo ya Khomphyuta"
+
+#. error box title
+#. txt_error_title
+msgid "I/O error"
+msgstr "Xihoxo xa I/O"
+
+#. boot disk change dialog title
+#. txt_change_disk_title
+msgid "Change Boot Disk"
+msgstr "Cinca Diski ya Masungulo ya Khomphyuta"
+
+#. txt_insert_disk
+#, c-format
+msgid "Insert boot disk %u."
+msgstr "Nghenisa Diski ya Masungulo ya Khomphyuta %u"
+
+#. txt_insert_disk2
+#, c-format
+msgid ""
+"This is boot disk %u.\n"
+"Insert boot disk %u."
+msgstr ""
+"%u :Leyi i diski ya Masungulo ya Khomphyuta\n"
+"Nghenisa diski leyi %u  ya Masungulo ya Khomphyuta"
+
+#. txt_insert_disk3
+#, c-format
+msgid ""
+"This is not a suitable boot disk.\n"
+"Please insert boot disk %u."
+msgstr ""
+"Diski leyi a yi ringanelangi kuva ya Masungulo ya Khomphyuta\n"
+"Nghenisa diski leyi %u  ya Masungulo ya Khomphyuta"
+
+#. password dialog title
+#. txt_password_title
+msgid "Password"
+msgstr "Rito ro nghena"
+
+#. Keep the newlines and spaces after ':'!
+#. txt_password
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"Nghenisa rito ro nghena   \n"
+"\n"
+"\n"
+
+#. dvd warning title
+#. txt_dvd_warning_title
+msgid "DVD Error"
+msgstr "Xihoxo eka DVD"
+
+#. txt_dvd_warning2
+msgid ""
+"This is a two-sided DVD. You have booted from the second side.\n"
+"\n"
+"Turn the DVD over then continue."
+msgstr "Leyi i  DVD ya mathlelo ma mbirhi"
+
+#. power off dialog title
+#. txt_power_off_title
+msgid "Power Off"
+msgstr "Tima"
+
+#. txt_power_off
+msgid "Halt the system now?"
+msgstr "Yimisa Khomphyuta sweswi"
+
+#. txt_password
+msgid "Password\n"
+msgstr "Rito ro nghena\n"
+
+#. button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Swohlawula swin'wana"
+
+#. label for language selection
+#. txt_language
+msgid "Language"
+msgstr "Ririmi"
+
+#. label for keymap selection
+#. txt_keymap
+msgid "Keymap"
+msgstr "Mepe wa swo tlavetela"
+
+#. label for installation mode selection
+#. txt_modes
+msgid "Modes"
+msgstr "Tindlela"
+
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr "Ntolovelo"
+
+#. label for d-i mode menu
+#. txt_expert_mode
+msgid "Expert mode"
+msgstr "Ndlela ya Vativi"
+
+#. title for accessibility menu
+#. txt_access
+msgid "Accessibility"
+msgstr "Mfikelelo"
+
+#. label for accessibility menu
+#. txt_access_none
+msgid "None"
+msgstr "Ku hava"
+
+#. label for accessibility menu
+#. txt_access_v1
+msgid "High Contrast"
+msgstr "Mihlovo ya Ntikelo wa le henhla"
+
+#. label for accessibility menu
+#. txt_access_v2
+msgid "Magnifier"
+msgstr "Xikurisi"
+
+#. label for accessibility menu
+#. txt_access_v3
+msgid "Screen Reader"
+msgstr "Xirithi Xo hlaya Xikirini"
+
+#. label for accessibility menu
+#. txt_access_brltty
+msgid "Braille Terminal"
+msgstr "Xitirhi xo Hlaya xa Braille"
+
+#. label for accessibility menu
+#. txt_access_m1
+msgid "Keyboard Modifiers"
+msgstr "Xitirhi xo ncinca Swotlavetela"
+
+#. label for accessibility menu
+#. txt_access_m2
+msgid "On-Screen Keyboard"
+msgstr "Swotlavetela swale xikirinini"
+
+#. label for accessibility menu
+#. txt_access_m3
+msgid "Motor Difficulties - switch devices"
+msgstr "Xipiqo xa Motor - tima michini"
+
+#. label for accessibility menu
+#. txt_access_all
+msgid "Everything"
+msgstr "Hinkwaswo"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu
+msgid "^Try Ubuntu without installing"
+msgstr "Ringeta Ubuntu u nga yi nghenisangi"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu
+msgid "^Try Kubuntu without installing"
+msgstr "Ringeta Kubuntu u nga yi nghenisangi"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_edubuntu
+msgid "^Try Edubuntu without installing"
+msgstr "Ringeta Edubuntu u nga yi nghenisangi"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_xubuntu
+msgid "^Try Xubuntu without installing"
+msgstr "Ringeta Xubuntu u nga yi nghenisangi"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mid
+msgid "^Try Ubuntu MID without installing"
+msgstr "Ringeta MID u nga yi nghenisangi"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_netbook
+msgid "^Try Ubuntu Netbook without installing"
+msgstr "Ringeta Ubuntu Netbook u nga yi nghenisangi"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu_netbook
+msgid "^Try Kubuntu Netbook without installing"
+msgstr "Ringeta Kubuntu netbook u nga yi nghenisangi"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_lubuntu
+msgid "^Try Lubuntu without installing"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_gnome
+msgid "^Try Ubuntu GNOME without installing"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mate
+msgid "^Try Ubuntu MATE without installing"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_start_kubuntu
+msgid "^Start Kubuntu"
+msgstr ""
+
+#. Installation mode.
+#. txt_menuitem_driverupdates
+msgid "Use driver update disc"
+msgstr "Tirhisa diski ya swo engetela( upgrade disk)"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_ubuntu
+msgid "^Install Ubuntu in text mode"
+msgstr "^Nghenisa Ubuntu hi ndlela ya marito ntsena"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_kubuntu
+msgid "^Install Kubuntu in text mode"
+msgstr "^Nghenisa Kubuntu hi ndlela ya marito ntsena"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_edubuntu
+msgid "^Install Edubuntu in text mode"
+msgstr "^Nghenisa Edubuntu hi ndlela ya marito ntsena"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_xubuntu
+msgid "^Install Xubuntu in text mode"
+msgstr "^Nghenisa Xubuntu hi ndlela ya marito ntsena"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu
+msgid "^Install Ubuntu"
+msgstr "^Nghenisa Ubuntu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu
+msgid "^Install Kubuntu"
+msgstr "^Nghenisa Kubuntu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_edubuntu
+msgid "^Install Edubuntu"
+msgstr "^Nghenisa Edubuntu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_xubuntu
+msgid "^Install Xubuntu"
+msgstr "^Nghenisa Xubuntu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_server
+msgid "^Install Ubuntu Server"
+msgstr "^Nghenisa Server ya Ubuntu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_gnome
+msgid "^Install Ubuntu GNOME"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mate
+msgid "^Install Ubuntu MATE"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_enlist_ubuntu_maas
+msgid "^Multiple server install with MAAS"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntustudio
+msgid "^Install Ubuntu Studio"
+msgstr "^Nghenisa Ubuntu Studio"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mid
+msgid "^Install Ubuntu MID"
+msgstr "^Nghenisa Ubuntu MID"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_netbook
+msgid "^Install Ubuntu Netbook"
+msgstr "Nghenisa Ubuntu Netbook"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu_netbook
+msgid "^Install Kubuntu Netbook"
+msgstr "Nghenisa Kubuntu Netbook"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_lubuntu
+msgid "^Install Lubuntu"
+msgstr ""
+
+#. Installation mode.
+#. txt_menuitem_workstation
+msgid "Install a workstation"
+msgstr "^Nghenisa Workstation( yo tirhela kona)"
+
+#. Installation mode.
+#. txt_menuitem_server
+msgid "Install a server"
+msgstr "^Nghenisa Server"
+
+#. Installation mode.
+#. txt_menuitem_oem
+msgid "OEM install (for manufacturers)"
+msgstr "^Nghenisa OEM( ya va tumbuluxi/ tifeme)"
+
+#. Installation mode.
+#. txt_menuitem_lamp
+msgid "Install a LAMP server"
+msgstr "Nghenisa Lamp Server"
+
+#. Installation mode.
+#. txt_menuitem_ltsp
+msgid "Install an LTSP server"
+msgstr "Nghenisa LTSP Server"
+
+#. Installation mode.
+#. txt_menuitem_ltsp_mythbuntu
+msgid "Install a Diskless Image Server"
+msgstr "Nghenisa Diskless Image Server"
+
+#. Installation mode.
+#. txt_menuitem_cli
+msgid "Install a command-line system"
+msgstr "Nghenisa sisitemo ya Xiletela-hi-Marito"
+
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr "Nghenisa sisitemo( mpimo wa le hansi)"
+
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr "Nghenisa muchini wa mpimo wa le hansi"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_check
+msgid "^Check disc for defects"
+msgstr "Kambela swihoxo eka diski"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_rescue
+msgid "^Rescue a broken system"
+msgstr "Lamulela sisitemo leyi nga tshoveka"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_memtest
+msgid "Test ^memory"
+msgstr "Kambela Memory"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_hd
+msgid "^Boot from first hard disk"
+msgstr "^Sungurisa eka hard drive yo sungula"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr "Switirhi swa mahala ntsena"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr "Xitirhi xo nghenisa na kambhe xa Dell"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_mythbuntu
+msgid "^Install Mythbuntu"
+msgstr "^Nghenisa Mythbuntu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_mythbuntu
+msgid "^Try Mythbuntu without installing"
+msgstr "Ringeta Mythbuntu u nga yi nghenisangi"
+
+#. txt_menuitem_live_ubuntukylin
+msgid "^Try Ubuntu Kylin without installing"
+msgstr ""
+
+#. txt_menuitem_live_ubuntukylin_netbook
+msgid "^Try Ubuntu Kylin Netbook without installing"
+msgstr ""
+
+#. txt_menuitem_install_text_ubuntukylin
+msgid "^Install Ubuntu Kylin in text mode"
+msgstr ""
+
+#. txt_menuitem_install_ubuntukylin
+msgid "^Install Ubuntu Kylin"
+msgstr ""
+
+#. txt_menuitem_install_ubuntukylin_netbook
+msgid "^Install Ubuntu Kylin Netbook"
+msgstr ""
+
+#. txt_menuitem_start_ubuntukylin
+msgid "^Start Ubuntu Kylin"
+msgstr ""
+
+#. txt_menuitem_live_ubuntustudio
+msgid "^Try Ubuntu Studio without installing"
+msgstr ""

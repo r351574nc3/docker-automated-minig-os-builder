@@ -1,0 +1,479 @@
+# Malagasy translation for gfxboot-theme-ubuntu
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the gfxboot-theme-ubuntu package.
+# Mariot Tsitoara <mariot.tsitoara@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gfxboot-theme-ubuntu\n"
+"Report-Msgid-Bugs-To: Mariot Tsitoara <mariot.tsitoara@gmail.com>\n"
+"POT-Creation-Date: 2016-04-16 01:46+0000\n"
+"PO-Revision-Date: 2015-07-23 15:07+0000\n"
+"Last-Translator: Thierry Andriamirado <Unknown>\n"
+"Language-Team: Malagasy <mg@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-10-10 14:20+0000\n"
+"X-Generator: Launchpad (build 18227)\n"
+
+#. ok button label
+#. txt_ok
+msgid "OK"
+msgstr ""
+
+#. cancel button label
+#. txt_cancel
+msgid "Cancel"
+msgstr "Ajanona"
+
+#. reboot button label
+#. txt_reboot
+msgid "Reboot"
+msgstr "Averina velomina"
+
+#. continue button label
+#. txt_continue
+msgid "Continue"
+msgstr "Manohy"
+
+#. txt_bootoptions
+msgid "Boot Options"
+msgstr "Safidin'ny famelomana"
+
+#. window title for exit dialog
+#. txt_exit_title (see txt_exit_dialog)
+msgid "Exiting..."
+msgstr "eo am-pialàna.."
+
+#. txt_exit_dialog
+msgid ""
+"You are leaving the graphical boot menu and\n"
+"starting the text mode interface."
+msgstr ""
+"Miala amin`ny famelomana misy sary ianao ary miditra amin` ny endrika "
+"antsoratra"
+
+#. txt_help
+msgid "Help"
+msgstr "Toro-làlana"
+
+#. info box title
+#. txt_info_title
+msgid "Boot loader"
+msgstr "Mpamahana Famelomana"
+
+#. error box title
+#. txt_error_title
+msgid "I/O error"
+msgstr "Fahadisoana eo amin`ny I/O"
+
+#. boot disk change dialog title
+#. txt_change_disk_title
+msgid "Change Boot Disk"
+msgstr "Soloy ny kapila famelomana"
+
+#. txt_insert_disk
+#, c-format
+msgid "Insert boot disk %u."
+msgstr "Ampidiro ny kapila famelomana %u."
+
+#. txt_insert_disk2
+#, c-format
+msgid ""
+"This is boot disk %u.\n"
+"Insert boot disk %u."
+msgstr ""
+"Kapila famelomana %u ity.\n"
+"Ampidiro ny kapila famelomana %u."
+
+#. txt_insert_disk3
+#, c-format
+msgid ""
+"This is not a suitable boot disk.\n"
+"Please insert boot disk %u."
+msgstr ""
+"Tsy kapila famelomana ity.\n"
+"Ampidiro ny kapila famelomana %u azafady."
+
+#. password dialog title
+#. txt_password_title
+msgid "Password"
+msgstr "Teny fanalahidy"
+
+#. Keep the newlines and spaces after ':'!
+#. txt_password
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"Ampidiro ny teny fanalahidinao:   \n"
+"\n"
+"\n"
+
+#. dvd warning title
+#. txt_dvd_warning_title
+msgid "DVD Error"
+msgstr "Fahadisoana DVD"
+
+#. txt_dvd_warning2
+msgid ""
+"This is a two-sided DVD. You have booted from the second side.\n"
+"\n"
+"Turn the DVD over then continue."
+msgstr ""
+"DVD ambadika-ambadika io. Namelona tamin'ny sisiny faharoa ianao.\n"
+"\n"
+"Avadio ny DVD dia manohiza."
+
+#. power off dialog title
+#. txt_power_off_title
+msgid "Power Off"
+msgstr "Mamono"
+
+#. txt_power_off
+msgid "Halt the system now?"
+msgstr "Hajanona izao ve ny solosaina?"
+
+#. txt_password
+msgid "Password\n"
+msgstr "Teny fanalahidy\n"
+
+#. button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Safidy Hafa"
+
+#. label for language selection
+#. txt_language
+msgid "Language"
+msgstr "Teny"
+
+#. label for keymap selection
+#. txt_keymap
+msgid "Keymap"
+msgstr "Karatry ny bokotra"
+
+#. label for installation mode selection
+#. txt_modes
+msgid "Modes"
+msgstr "Fomba"
+
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr "Tsotra"
+
+#. label for d-i mode menu
+#. txt_expert_mode
+msgid "Expert mode"
+msgstr "Fomban'ny manan-traikefa"
+
+#. title for accessibility menu
+#. txt_access
+msgid "Accessibility"
+msgstr "Fahafahana mampiasa"
+
+#. label for accessibility menu
+#. txt_access_none
+msgid "None"
+msgstr "Foana"
+
+#. label for accessibility menu
+#. txt_access_v1
+msgid "High Contrast"
+msgstr "Fifangarihana be"
+
+#. label for accessibility menu
+#. txt_access_v2
+msgid "Magnifier"
+msgstr "Fanalehibiazana"
+
+#. label for accessibility menu
+#. txt_access_v3
+msgid "Screen Reader"
+msgstr "Mpamaky Efijery"
+
+#. label for accessibility menu
+#. txt_access_brltty
+msgid "Braille Terminal"
+msgstr "Terminal Braille"
+
+#. label for accessibility menu
+#. txt_access_m1
+msgid "Keyboard Modifiers"
+msgstr "Mpanova Klavie"
+
+#. label for accessibility menu
+#. txt_access_m2
+msgid "On-Screen Keyboard"
+msgstr "Klavie hita an tsoratra"
+
+#. label for accessibility menu
+#. txt_access_m3
+msgid "Motor Difficulties - switch devices"
+msgstr "Fahasarotana motera - hanakalo ny milina"
+
+#. label for accessibility menu
+#. txt_access_all
+msgid "Everything"
+msgstr "Izy rehetra"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu
+msgid "^Try Ubuntu without installing"
+msgstr "^Hanandrana an'i Ubuntu tsy misy fametrahana"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu
+msgid "^Try Kubuntu without installing"
+msgstr "^Hanandrana an'i Kubuntu tsy misy fametrahana"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_edubuntu
+msgid "^Try Edubuntu without installing"
+msgstr "^Hanandrana an'i Edubuntu tsy misy fametrahana"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_xubuntu
+msgid "^Try Xubuntu without installing"
+msgstr "^Hanandrana an'i Xubuntu tsy misy fametrahana"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mid
+msgid "^Try Ubuntu MID without installing"
+msgstr "^Hanandrana an'i Ubuntu MID tsy misy fametrahana"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_netbook
+msgid "^Try Ubuntu Netbook without installing"
+msgstr "^Hanandrana an'i Ubuntu Netbook tsy misy fametrahana"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu_netbook
+msgid "^Try Kubuntu Netbook without installing"
+msgstr "^Hanandrana an'i Kubuntu Netbook tsy misy fametrahana"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_lubuntu
+msgid "^Try Lubuntu without installing"
+msgstr "^Hanandrana an'i Lubuntu tsy misy fametrahana"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_gnome
+msgid "^Try Ubuntu GNOME without installing"
+msgstr "^Hanandrana an'i Ubuntu GNOME tsy misy fametrahana"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mate
+msgid "^Try Ubuntu MATE without installing"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_start_kubuntu
+msgid "^Start Kubuntu"
+msgstr "^Handefa an'i Kubuntu"
+
+#. Installation mode.
+#. txt_menuitem_driverupdates
+msgid "Use driver update disc"
+msgstr "Hampiasa ny diska mampanara-toetrandro ny mpamily"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_ubuntu
+msgid "^Install Ubuntu in text mode"
+msgstr "^Hametraka an'i Ubuntu amin'ny maody lahatsoratra"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_kubuntu
+msgid "^Install Kubuntu in text mode"
+msgstr "^Hametraka an'i Kubuntu amin'ny maody lahatsoratra"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_edubuntu
+msgid "^Install Edubuntu in text mode"
+msgstr "^Hametraka an'i Edubuntu amin'ny maody lahatsoratra"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_xubuntu
+msgid "^Install Xubuntu in text mode"
+msgstr "^Hametraka an'i Xubuntu amin'ny maody lahatsoratra"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu
+msgid "^Install Ubuntu"
+msgstr "^Hametraka an'i Ubuntu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu
+msgid "^Install Kubuntu"
+msgstr "^Hametraka an'i Kubuntu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_edubuntu
+msgid "^Install Edubuntu"
+msgstr "^Hametraka an'i Edubuntu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_xubuntu
+msgid "^Install Xubuntu"
+msgstr "^Hametraka an'i Xubuntu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_server
+msgid "^Install Ubuntu Server"
+msgstr "^Hametraka an'i Ubuntu Server"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_gnome
+msgid "^Install Ubuntu GNOME"
+msgstr "^Hametraka an'i Ubuntu GNOME"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mate
+msgid "^Install Ubuntu MATE"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_enlist_ubuntu_maas
+msgid "^Multiple server install with MAAS"
+msgstr "^Fametrahana Mpanolotra maro miaraka amin'i MAAS"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntustudio
+msgid "^Install Ubuntu Studio"
+msgstr "^Hametraka an'i Ubuntu Studio"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mid
+msgid "^Install Ubuntu MID"
+msgstr "^Hametraka an'i Ubuntu MID"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_netbook
+msgid "^Install Ubuntu Netbook"
+msgstr "^Hametraka an'i Ubuntu Netbook"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu_netbook
+msgid "^Install Kubuntu Netbook"
+msgstr "^Hametraka an'i Kubuntu Netbook"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_lubuntu
+msgid "^Install Lubuntu"
+msgstr "Hametraka an'i Lubuntu"
+
+#. Installation mode.
+#. txt_menuitem_workstation
+msgid "Install a workstation"
+msgstr "Hametraka toeram-piasana"
+
+#. Installation mode.
+#. txt_menuitem_server
+msgid "Install a server"
+msgstr "Hametraka server"
+
+#. Installation mode.
+#. txt_menuitem_oem
+msgid "OEM install (for manufacturers)"
+msgstr "Fametrahana OEM (ho an'ny mpamboatra)"
+
+#. Installation mode.
+#. txt_menuitem_lamp
+msgid "Install a LAMP server"
+msgstr "Hametraka server LAMP iray"
+
+#. Installation mode.
+#. txt_menuitem_ltsp
+msgid "Install an LTSP server"
+msgstr "Hametraka server LTSP iray"
+
+#. Installation mode.
+#. txt_menuitem_ltsp_mythbuntu
+msgid "Install a Diskless Image Server"
+msgstr "Hametraka server tsy misy sarin'ny diska"
+
+#. Installation mode.
+#. txt_menuitem_cli
+msgid "Install a command-line system"
+msgstr "Hametraka rafitra baiko-tsipika"
+
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr "Hametraka rafitra kely dia kely"
+
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr "Hametraka milina virtoaly kely idrindra"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_check
+msgid "^Check disc for defects"
+msgstr "^Hikaroka fahadisoana ao amin'ny diska"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_rescue
+msgid "^Rescue a broken system"
+msgstr "Hamonjy system ^simba"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_memtest
+msgid "Test ^memory"
+msgstr "Hanoatra ny ^fitadidiana"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_hd
+msgid "^Boot from first hard disk"
+msgstr "Hamelona avy amin'ny diska mavesatra ^voalohany"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr "Rindran'asa malalaka ihany"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr "Fametrahana mandeha ho azy ^Dell"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_mythbuntu
+msgid "^Install Mythbuntu"
+msgstr "^Hametraka an'i Mythbuntu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_mythbuntu
+msgid "^Try Mythbuntu without installing"
+msgstr "^Hametraka an'i Mythbuntu tsy misy fametrahana"
+
+#. txt_menuitem_live_ubuntukylin
+msgid "^Try Ubuntu Kylin without installing"
+msgstr "^Andramo tsy mila apetraka Ubuntu Kylin"
+
+#. txt_menuitem_live_ubuntukylin_netbook
+msgid "^Try Ubuntu Kylin Netbook without installing"
+msgstr "^Andramo tsy mila apetraka Ubuntu Kylin Netbook"
+
+#. txt_menuitem_install_text_ubuntukylin
+msgid "^Install Ubuntu Kylin in text mode"
+msgstr "^Apetraka amin'ny alalan'ny interfasy soratra Ubuntu Kylin"
+
+#. txt_menuitem_install_ubuntukylin
+msgid "^Install Ubuntu Kylin"
+msgstr "^Hametraka an'i Ubuntu Kylin"
+
+#. txt_menuitem_install_ubuntukylin_netbook
+msgid "^Install Ubuntu Kylin Netbook"
+msgstr "^Hametraka an'i Ubuntu Kylin Netbook"
+
+#. txt_menuitem_start_ubuntukylin
+msgid "^Start Ubuntu Kylin"
+msgstr "^Handefa an'i Ubuntu Kylin"
+
+#. txt_menuitem_live_ubuntustudio
+msgid "^Try Ubuntu Studio without installing"
+msgstr ""

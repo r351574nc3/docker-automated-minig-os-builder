@@ -1,0 +1,479 @@
+# Tatar translation for gfxboot-theme-ubuntu
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the gfxboot-theme-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gfxboot-theme-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-04-16 01:46+0000\n"
+"PO-Revision-Date: 2014-03-28 07:48+0000\n"
+"Last-Translator: Корбанов Динар <Unknown>\n"
+"Language-Team: Tatar <tt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-10-10 14:20+0000\n"
+"X-Generator: Launchpad (build 18227)\n"
+
+#. ok button label
+#. txt_ok
+msgid "OK"
+msgstr "ОК"
+
+#. cancel button label
+#. txt_cancel
+msgid "Cancel"
+msgstr "Баш тарту"
+
+#. reboot button label
+#. txt_reboot
+msgid "Reboot"
+msgstr "Сүндереп кабызу"
+
+#. continue button label
+#. txt_continue
+msgid "Continue"
+msgstr "Дәвам итү"
+
+#. txt_bootoptions
+msgid "Boot Options"
+msgstr "Йөкләү опцияләре"
+
+#. window title for exit dialog
+#. txt_exit_title (see txt_exit_dialog)
+msgid "Exiting..."
+msgstr "Чыгу..."
+
+#. txt_exit_dialog
+msgid ""
+"You are leaving the graphical boot menu and\n"
+"starting the text mode interface."
+msgstr ""
+"Cурәтле кабыну менюсыннан чыгып,\n"
+"текст режимына күчәсез."
+
+#. txt_help
+msgid "Help"
+msgstr "Ярдәм"
+
+#. info box title
+#. txt_info_title
+msgid "Boot loader"
+msgstr "Кабызгыч"
+
+#. error box title
+#. txt_error_title
+msgid "I/O error"
+msgstr "Кертү/чыгару хатасы"
+
+#. boot disk change dialog title
+#. txt_change_disk_title
+msgid "Change Boot Disk"
+msgstr "Кабынып китү дискын алыштыру"
+
+#. txt_insert_disk
+#, c-format
+msgid "Insert boot disk %u."
+msgstr "%u кабынып китү дискын кертегез."
+
+#. txt_insert_disk2
+#, c-format
+msgid ""
+"This is boot disk %u.\n"
+"Insert boot disk %u."
+msgstr ""
+"Бу %u кабынып китү дискы.\n"
+"%u кабынып китү дискын куегыз."
+
+#. txt_insert_disk3
+#, c-format
+msgid ""
+"This is not a suitable boot disk.\n"
+"Please insert boot disk %u."
+msgstr ""
+"Бу килешле кабынып китү дискы түгел.\n"
+"%u кабынып киту дискын куегыз."
+
+#. password dialog title
+#. txt_password_title
+msgid "Password"
+msgstr "Сер сүз"
+
+#. Keep the newlines and spaces after ':'!
+#. txt_password
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"Серсүзне кертегез:   \n"
+"\n"
+"\n"
+
+#. dvd warning title
+#. txt_dvd_warning_title
+msgid "DVD Error"
+msgstr "DVD хатасы"
+
+#. txt_dvd_warning2
+msgid ""
+"This is a two-sided DVD. You have booted from the second side.\n"
+"\n"
+"Turn the DVD over then continue."
+msgstr ""
+"Бу ике яклы DVD. Сез икенче ягыннан кабызып җибәргәнсез.\n"
+"DVD-ны икенче ягына әйләндереп дәвам итегез."
+
+#. power off dialog title
+#. txt_power_off_title
+msgid "Power Off"
+msgstr "Сүндерү"
+
+#. txt_power_off
+msgid "Halt the system now?"
+msgstr "Дөрестән дә сүндерергәме?"
+
+#. txt_password
+msgid "Password\n"
+msgstr "Серсүз\n"
+
+#. button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Башка көйләнешләр"
+
+#. label for language selection
+#. txt_language
+msgid "Language"
+msgstr "Тел"
+
+#. label for keymap selection
+#. txt_keymap
+msgid "Keymap"
+msgstr "Клавиатура җәдвәле"
+
+#. label for installation mode selection
+#. txt_modes
+msgid "Modes"
+msgstr "Режимнар"
+
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr "Гадәти"
+
+#. label for d-i mode menu
+#. txt_expert_mode
+msgid "Expert mode"
+msgstr "Эксперт режимы"
+
+#. title for accessibility menu
+#. txt_access
+msgid "Accessibility"
+msgstr "Куллану мөмкинлекләре"
+
+#. label for accessibility menu
+#. txt_access_none
+msgid "None"
+msgstr "Юк"
+
+#. label for accessibility menu
+#. txt_access_v1
+msgid "High Contrast"
+msgstr "Югары төс кискенлеге"
+
+#. label for accessibility menu
+#. txt_access_v2
+msgid "Magnifier"
+msgstr "Лупа"
+
+#. label for accessibility menu
+#. txt_access_v3
+msgid "Screen Reader"
+msgstr "Экран язуларын укучы"
+
+#. label for accessibility menu
+#. txt_access_brltty
+msgid "Braille Terminal"
+msgstr "Брайль терминалы"
+
+#. label for accessibility menu
+#. txt_access_m1
+msgid "Keyboard Modifiers"
+msgstr "Клавиатура җәдвәлен үзгәрткеч"
+
+#. label for accessibility menu
+#. txt_access_m2
+msgid "On-Screen Keyboard"
+msgstr "Экран клавиатурасы"
+
+#. label for accessibility menu
+#. txt_access_m3
+msgid "Motor Difficulties - switch devices"
+msgstr ""
+"Хәрәкәтләнү мөмкинлекләре чикләнгән кешеләр өчен - җиһазларны алыштыру"
+
+#. label for accessibility menu
+#. txt_access_all
+msgid "Everything"
+msgstr "Барчасы"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu
+msgid "^Try Ubuntu without installing"
+msgstr "^Ubuntu'ны урнаштырмыйча гына кулланып карагыз"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu
+msgid "^Try Kubuntu without installing"
+msgstr "^Kubuntu'ны уранштырмыйча гына кулланып карагыз"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_edubuntu
+msgid "^Try Edubuntu without installing"
+msgstr "^Edubuntu'ны уранштырмыйча гына кулланып карагыз"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_xubuntu
+msgid "^Try Xubuntu without installing"
+msgstr "Xubuntu'ны уранштырмыйча гына ^кулланып карау"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mid
+msgid "^Try Ubuntu MID without installing"
+msgstr "Ubuntu MID'ны уранштырмыйча гына ^кулланып карау"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_netbook
+msgid "^Try Ubuntu Netbook without installing"
+msgstr "Ubuntu Netbook'ны уранштырмыйча гына ^кулланып карау"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu_netbook
+msgid "^Try Kubuntu Netbook without installing"
+msgstr "Kubuntu Netbook'ны уранштырмыйча гына ^кулланып карау"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_lubuntu
+msgid "^Try Lubuntu without installing"
+msgstr "Lubuntu ны урнаштырмыйча эшләтеп ^карау"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_gnome
+msgid "^Try Ubuntu GNOME without installing"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mate
+msgid "^Try Ubuntu MATE without installing"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_start_kubuntu
+msgid "^Start Kubuntu"
+msgstr "^Kubuntu кабызына"
+
+#. Installation mode.
+#. txt_menuitem_driverupdates
+msgid "Use driver update disc"
+msgstr "Драйверларны яңарту дискын куллану"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_ubuntu
+msgid "^Install Ubuntu in text mode"
+msgstr "Ubuntu'ны текст режимын кулланып ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_kubuntu
+msgid "^Install Kubuntu in text mode"
+msgstr "Kubuntu'ны текст режимын кулланып ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_edubuntu
+msgid "^Install Edubuntu in text mode"
+msgstr "Edubuntu'ны текст режимын кулланып ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_xubuntu
+msgid "^Install Xubuntu in text mode"
+msgstr "Xubuntu'ны текст режимын кулланып ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu
+msgid "^Install Ubuntu"
+msgstr "Ubuntu'ны ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu
+msgid "^Install Kubuntu"
+msgstr "Kubuntu'ны ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_edubuntu
+msgid "^Install Edubuntu"
+msgstr "Edubuntu'ны ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_xubuntu
+msgid "^Install Xubuntu"
+msgstr "Xubuntu'ны ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_server
+msgid "^Install Ubuntu Server"
+msgstr "Ubuntu Server'ны ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_gnome
+msgid "^Install Ubuntu GNOME"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mate
+msgid "^Install Ubuntu MATE"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_enlist_ubuntu_maas
+msgid "^Multiple server install with MAAS"
+msgstr "MAAS ярдәме белән берничә сервер ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntustudio
+msgid "^Install Ubuntu Studio"
+msgstr "Ubuntu Studio'ны ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mid
+msgid "^Install Ubuntu MID"
+msgstr "Ubuntu MID'ны ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_netbook
+msgid "^Install Ubuntu Netbook"
+msgstr "Ubuntu Netbook'ны ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu_netbook
+msgid "^Install Kubuntu Netbook"
+msgstr "Kubuntu Netbook'ны ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_lubuntu
+msgid "^Install Lubuntu"
+msgstr "Lubuntu ^урнаштыру"
+
+#. Installation mode.
+#. txt_menuitem_workstation
+msgid "Install a workstation"
+msgstr "Эш станциясен урнаштыру"
+
+#. Installation mode.
+#. txt_menuitem_server
+msgid "Install a server"
+msgstr "Сервер урнаштырыу"
+
+#. Installation mode.
+#. txt_menuitem_oem
+msgid "OEM install (for manufacturers)"
+msgstr "\"OEM\" урнаштыру (җыючылар өчен)"
+
+#. Installation mode.
+#. txt_menuitem_lamp
+msgid "Install a LAMP server"
+msgstr "\"LAMP\" сервер кую"
+
+#. Installation mode.
+#. txt_menuitem_ltsp
+msgid "Install an LTSP server"
+msgstr "\"LTSP\" сервер кую"
+
+#. Installation mode.
+#. txt_menuitem_ltsp_mythbuntu
+msgid "Install a Diskless Image Server"
+msgstr "Дисксыз линукс серверын кую"
+
+#. Installation mode.
+#. txt_menuitem_cli
+msgid "Install a command-line system"
+msgstr "Әмер керткечле системаны гына кую"
+
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr "Минималь системаны кую"
+
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr "Минималь виртуаль система кую"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_check
+msgid "^Check disc for defects"
+msgstr "Дисктагы хаталарны ^тикшерү"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_rescue
+msgid "^Rescue a broken system"
+msgstr "Ватык системаны ^төзәтү"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_memtest
+msgid "Test ^memory"
+msgstr "Тиз ^хәтерне сынау"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_hd
+msgid "^Boot from first hard disk"
+msgstr "Беренче каты дисктан ^йөкләү"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr "Ирекле программалар гына"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr "^Dell'ны автоматик рәвештә яңадан кую"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_mythbuntu
+msgid "^Install Mythbuntu"
+msgstr "Mythbuntu'ны ^урнаштыру"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_mythbuntu
+msgid "^Try Mythbuntu without installing"
+msgstr "Mythbuntu'ны урнаштырмыйча гына ^кулланып карау"
+
+#. txt_menuitem_live_ubuntukylin
+msgid "^Try Ubuntu Kylin without installing"
+msgstr "Ubuntu Kylin-ны урнаштырмыйча эшләтеп ^карау"
+
+#. txt_menuitem_live_ubuntukylin_netbook
+msgid "^Try Ubuntu Kylin Netbook without installing"
+msgstr "Ubuntu Kylin Netbook-ны урнаштырмыйча эшләтеп ^карау"
+
+#. txt_menuitem_install_text_ubuntukylin
+msgid "^Install Ubuntu Kylin in text mode"
+msgstr "Ubuntu Kylin-ны текст режимында ^урнаштыру"
+
+#. txt_menuitem_install_ubuntukylin
+msgid "^Install Ubuntu Kylin"
+msgstr "Ubuntu Kylin-ны ^урнаштыру"
+
+#. txt_menuitem_install_ubuntukylin_netbook
+msgid "^Install Ubuntu Kylin Netbook"
+msgstr "Ubuntu Kylin Netbook-ны ^урнаштыру"
+
+#. txt_menuitem_start_ubuntukylin
+msgid "^Start Ubuntu Kylin"
+msgstr "Ubuntu Kylin-ны ^эшләтү"
+
+#. txt_menuitem_live_ubuntustudio
+msgid "^Try Ubuntu Studio without installing"
+msgstr ""

@@ -1,0 +1,58 @@
+#!/bin/sh
+
+## live-build(7) - System Build Scripts
+## Copyright (C) 2006-2015 Leo Przybylski <r351574nc3 at gmail.com>
+##
+## This program comes with ABSOLUTELY NO WARRANTY; for details see COPYING.
+## This is free software, and you are welcome to redistribute it
+## under certain conditions; see COPYING for details.
+
+set -x
+
+# Prerequisites
+export DEBIAN_FRONTEND=noninteractive
+dpkg --add-architecture i386
+apt-get install -y xz-utils \
+    linux-headers-generic curl
+
+#apt-get remove -y firmware-amd-graphics
+#apt-get autoremove -y
+
+
+# Install new 4.11.0-kfd-compute-rocm-rel-1.6-180 Kernel
+
+mkdir -p /tmp/build \
+    && cd /tmp/build \
+    && curl -OL http://repo.radeon.com/rocm/archive/apt_1.6.4.tar.bz2 \
+    && tar -xjf apt_1.6.4.tar.bz2 
+
+cat /tmp/build/apt_1.6.4/rocm.gpg.key | sudo apt-key add -
+echo deb file:///tmp/build/apt_1.6.4 xenial main > /etc/apt/sources.list.d/rocm.list
+
+apt-get update
+
+apt-get install -y --allow-unauthenticated rocm
+
+AMDGPU_DRIVER_VERSION=16.60-379184
+#AMDGPU_DRIVER_VERSION=17.50-511655
+
+# Download drivers
+mkdir -p /tmp/build \
+    && cd /tmp/build \
+    && curl -OL https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-${AMDGPU_DRIVER_VERSION}.tar.xz -e http://support.amd.com \
+    && tar -xJvf amdgpu-pro-${AMDGPU_DRIVER_VERSION}.tar.xz \
+    && cd amdgpu-pro-${AMDGPU_DRIVER_VERSION} \
+    && ./amdgpu-pro-install  -y 
+
+#apt-get -y install clinfo-amdgpu-pro
+echo 'export LLVM_BIN=/opt/amdgpu-pro/bin' | sudo tee /etc/profile.d/amdgpu-pro.sh
+
+#apt-get install -y compute-firmware
+
+
+#cat /var/lib/dkms/rock/1.7.60-ubuntu/build/make.log
+rm /etc/apt/sources.list.d/rocm.list
+ls -l /boot
+
+#        && sh amdgpu-pro-preinstall.sh \
+#    && curl -OL https://www2.ati.com/drivers/linux/17.50/amdgpu-pro-preinstall.sh -e http://support.amd.com/en-us/kb-articles/Pages/Installation-Instructions-for-amdgpu-Graphics-Stacks.aspx \
