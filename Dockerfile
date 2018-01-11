@@ -1,33 +1,23 @@
-FROM ubuntu:bionic
+FROM debian:stretch 
 
-ENV DEBCONF_FRONTEND noninteractive
+MAINTAINER Leo Przybylski (r351574nc3 at gmail.com)
+
 
 RUN apt-get update \
-    && apt-get dist-upgrade -y \
     && apt-get install -y \
-        apt-utils \
-        live-build \
-        live-tools \
-        syslinux \
-        isolinux \
-        extlinux \
-        gfxboot-theme-ubuntu \
-        syslinux-utils \
-        squashfs-tools \
-        genisoimage \
-        debootstrap \
-        fakeroot \
-        xz-utils 
+        python-pip \
+        python3 \
+        python3-pip \
+        qemu \ 
+        curl \
+        sudo \
+        procps \
+        kpartx \
+    && pip install diskimage-builder \
+    && mkdir -p /opt/bin
 
-RUN mkdir -p /opt
+ADD bin/* /opt/bin
 
-ADD bin /opt/bin
-ADD conf /root/conf
+WORKDIR /work
 
-RUN chmod 755 /opt/bin/*
-
-VOLUME /work
-
-WORKDIR /root
-
-ENTRYPOINT ["sh", "/opt/bin/docker-entrypoint.sh"]
+ENTRYPOINT ["bash", "/opt/bin/docker-entrypoint.sh"]
