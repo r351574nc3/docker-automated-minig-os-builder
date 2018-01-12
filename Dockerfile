@@ -13,11 +13,17 @@ RUN apt-get update \
         sudo \
         procps \
         kpartx \
+        squashfs-tools \
+        e2fsprogs \
+        debootstrap \
+        dkms \
     && pip install diskimage-builder \
     && mkdir -p /opt/bin
 
 ADD bin/* /opt/bin
 
 WORKDIR /work
+
+VOLUME /work
 
 ENTRYPOINT ["bash", "/opt/bin/docker-entrypoint.sh"]
