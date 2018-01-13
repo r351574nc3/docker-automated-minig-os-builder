@@ -1,24 +1,14 @@
-FROM debian:stretch 
+FROM fedora:latest 
 
 MAINTAINER Leo Przybylski (r351574nc3 at gmail.com)
 
 
-RUN apt-get update \
-    && apt-get install -y \
-        python-pip \
-        python3 \
-        python3-pip \
-        qemu \ 
-        curl \
-        sudo \
-        procps \
-        kpartx \
-        squashfs-tools \
-        e2fsprogs \
-        debootstrap \
-        dkms \
-    && pip install diskimage-builder \
-    && mkdir -p /opt/bin
+
+RUN dnf update -y \
+    && dnf dist-upgrade -y \
+    && dnf install -y python3 python-pip qemu sudo syslinux  \
+    && pip install diskimage-builder
+
 
 ADD bin/* /opt/bin
 
