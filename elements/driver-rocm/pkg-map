@@ -1,0 +1,30 @@
+{
+  "distro":{
+    "debian":{
+        "curl": "curl",
+        "bzip2": "bzip2",
+        "xz-utils": "xz-utils",
+        "wget": "wget"
+    }
+  },
+  "family":{
+    "debian":{
+        "curl": "curl",
+        "bzip2": "bzip2",
+        "xz-utils": "xz-utils",
+        "wget": "wget"
+    },
+    "redhat":{
+        "curl": "curl",
+        "bzip2": "bzip2",
+        "xz-utils": "xz-utils",
+        "wget": "wget"
+    }
+  },
+  "default":{
+        "curl": "curl",
+        "bzip2": "bzip2",
+        "xz-utils": "xz-utils",
+        "wget": "wget"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "distro":{
+    "debian":{
+        "syslinux": "syslinux",
+        "syslinux-common": "syslinux-common",
+        "isolinux": "isolinux",
+        "genisoimage":"genisoimage"
+    }
+  },
+  "family":{
+    "debian":{
+      "syslinux": "syslinux",
+      "syslinux-common": "",
+      "isolinux": "",
+      "genisoimage":""
+    },
+    "redhat":{
+      "syslinux": "",
+      "syslinux-common": "",
+      "isolinux": ""
+    }
+  },
+  "default":{
+      "syslinux": "syslinux",
+      "syslinux-common": "",
+      "isolinux": "",
+      "genisoimage": ""
+  }
+}
+
