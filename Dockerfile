@@ -1,4 +1,4 @@
-FROM debian:stretch 
+FROM ubuntu:xenial
 
 MAINTAINER Leo Przybylski (r351574nc3 at gmail.com)
 
@@ -17,8 +17,20 @@ RUN apt-get update \
         e2fsprogs \
         debootstrap \
         dkms \
-    && pip install diskimage-builder \
+        git \
+        dosfstools \
+        syslinux \
+        syslinux-common \
+        isolinux \
+        genisoimage \
+    && pip install --upgrade pip \
     && mkdir -p /opt/bin
+
+RUN mkdir -p /tmp/build \
+    && cd /tmp/build \
+    && git clone https://git.openstack.org/openstack/diskimage-builder \
+    && cd diskimage-builder \
+    && pip install -e .
 
 ADD bin/* /opt/bin
 
