@@ -1,10 +1,18 @@
-# docker-kickstart
-Fedora/RHEL kickstart docker image for creating livecd images with docker
+# Mining OS openstack-diskimage-builder
+Dynamically generates USB disk images for mining crypto currencies using docker.
 
 
 ## Execution Example
-```
-docker run --rm -v $PWD/conf:/kickstarts --privileged=true r351574nc3/docker-kickstart:latest livecd-tools.ks
-```
 
-* `--privileged=true` is important because it allows docker to communicate with a loopback device which `livecd-tools` needs in order to create the ISO image.
+The following will create an image files `image.raw` that can be used to burn to a USB flash drive for booting a mining rig. The operating system 
+* contains drivers for ROCm
+* Based on ubuntu xenial
+* includes miners
+    * claymore
+    * ethminer
+    * sgminer
+    * cgminer
+
+```bash
+docker run --privileged -v $PWD:/work r351574nc3/amdgpu-diskimage-builder:latest ubuntu-minimal devuser driver-rocm miners bootloader
+```
