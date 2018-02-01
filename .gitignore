@@ -1,0 +1,4 @@
+image*
+*.raw
+*.qcow2
+*.iso
